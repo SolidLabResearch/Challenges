@@ -2,7 +2,7 @@
 name: Challenge
 about: Use this template to add a new challenge.
 title: ''
-labels: ''
+labels: ['triage', 'challenge']
 assignees: ''
 
 ---
