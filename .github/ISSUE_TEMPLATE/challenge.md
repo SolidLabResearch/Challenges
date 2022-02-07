@@ -15,6 +15,10 @@ Add in concrete terms what the problem is.
 
 Add insights in how the solution should/can look like.
 
+# Acceptance criteria
+
+Add what criteria need to be fulfilled to consider the solution to be accepted for this challenge.
+
 # Pointers
 
 Add pointers to existing solutions, approaches, ideas, and so on.
