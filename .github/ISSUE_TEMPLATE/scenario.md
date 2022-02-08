@@ -1,15 +1,15 @@
 ---
 name: Scenario
-about: Add a new scenario.
+about: A flow of steps demonstrating a part of a use case
 title: ''
 labels: ['triage', 'scenario']
 assignees: ''
 ---
 <!--
-Give the issue a succinct, attractive title.
+Give the scenario a succinct, attractive title.
 
 Example:
-The user logs in and is greeted using their name.
+The user logs in and is greeted using their name
 -->
 
 ## Actors/actresses 

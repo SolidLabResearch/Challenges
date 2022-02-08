@@ -1,12 +1,12 @@
 ---
 name: Challenge
-about: Add a new challenge.
+about: A concrete technical problem applied to a specific use case
 title: ''
 labels: ['triage', 'challenge']
 assignees: ''
 ---
 <!--
-Give the issue a succinct, attractive title.
+Give the challenge a succinct, attractive title.
 
 Example:
 Greet the user with their preferred name
