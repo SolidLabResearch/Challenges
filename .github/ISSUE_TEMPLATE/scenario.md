@@ -17,7 +17,7 @@ The user logs in and is greeted using their name
 Add all actors/actresses involved in the scenario.
 
 Example:
-- User of the application.
+- User of the application
 -->
 
 ## Preconditions
@@ -36,7 +36,7 @@ Add the steps the actors/actresses execute during the scenario.
 Example:
 - The user clicks on the "Log in" button.
 - The user is redirected to the login page of their Solid pod.
-- The user logs in.
+- The user logs in with username/password.
 - The user is redirected to the original application.
 - The user is greeted using their preferred name.
 -->

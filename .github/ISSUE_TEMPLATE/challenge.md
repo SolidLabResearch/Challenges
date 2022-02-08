@@ -55,9 +55,14 @@ Add pointers to existing solutions, approaches, ideas, and so on.
 
 Example:
 - https://www.w3.org/International/questions/qa-personal-names
+- https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
 -->
 
 ## Scenarios
 <!--
-Add to which scenarios this challenge contributes.
+(optional) Add to which scenarios this challenge contributes.
+Pick from https://github.com/SolidLabResearch/Challenges/issues?q=label%3Ascenario
+
+Example:
+- https://github.com/SolidLabResearch/Challenges/issues/1234
 -->
