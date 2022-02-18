@@ -1,0 +1,13 @@
+graph TD
+    use-case[Use case] -->|Create scenarios| scenarios[Scenarios]
+    scenarios --> select-scenario(Select scenario)
+    select-scenario --> create-scenario(Create scenario issue on GitHub)
+
+    create-scenario -->|Create challenges| challenges[Challenges]
+    challenges --> select-challenge(Select challenge)
+    select-challenge --> create-challenge(Create challenge issue on GitHub)
+    create-challenge --> challenges-left{Are there challenges left?}
+    challenges-left --> |Yes| select-challenge
+    challenges-left --> |No| scenarios-left{Are there scenarios left?}
+    scenarios-left --> |yes| select-scenario
+    scenarios-left --> |No| Done
