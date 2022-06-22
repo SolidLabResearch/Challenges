@@ -9,3 +9,4 @@ The Working Group 1 (Use Cases) of the Outreach component of SolidLab will creat
 You find the steps that you need to follow to turn these use cases into challenges via scenarios [here](use-case-flow.md).
 
 Find all approved challenges without a lead [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22proposal%3A+approved+%E2%9C%85%22+label%3Achallenge).
+Find all challenges that need changes and without assignee [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22proposal%3A+changes+needed+%F0%9F%91%B7%22+label%3Achallenge+). 
