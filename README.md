@@ -8,4 +8,4 @@ This template helps you with providing the needed information for a challenge.
 The Working Group 1 (Use Cases) of the Outreach component of SolidLab will create different use cases.
 You find the steps that you need to follow to turn these use cases into challenges via scenarios [here](use-case-flow.md).
 
-Ideas for projects to work on can be found [here](https://github.com/SolidLabResearch/Ideas/issues).
+Find all approved challenges without a lead [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22proposal%3A+approved+%E2%9C%85%22+label%3Achallenge).
