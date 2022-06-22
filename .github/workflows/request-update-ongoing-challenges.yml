@@ -1,0 +1,19 @@
+name: Check for ongoing challenges without updates
+on:
+  schedule:
+    - cron: '30 1 * * *'
+
+permissions:
+  issues: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v4
+        with:
+          days-before-stale: 15
+          days-before-close: -1
+          only-labels: challenge,ongoing
+          stale-issue-label: update-required
+          stale-issue-message: 'Please provide a status update about this challenge. Every ongoing challenge needs at least one status update every 2 weeks. Thanks!'

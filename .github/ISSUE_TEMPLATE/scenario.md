@@ -2,8 +2,8 @@
 name: Scenario
 about: A flow of steps demonstrating a part of a use case
 title: ''
-labels: ['triage', 'scenario']
-assignees: ''
+labels: ['proposal: pending ❓', 'scenario']
+assignees: 'RubenVerborgh'
 ---
 <!--
 Give the scenario a succinct, attractive title.

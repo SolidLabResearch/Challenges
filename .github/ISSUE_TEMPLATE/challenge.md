@@ -2,8 +2,8 @@
 name: Challenge
 about: A concrete technical problem applied to a specific use case
 title: ''
-labels: ['triage', 'challenge']
-assignees: ''
+labels: ['proposal: pending ❓', 'challenge']
+assignees: 'RubenVerborgh'
 ---
 <!--
 Give the challenge a succinct, attractive title.
