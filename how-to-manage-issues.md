@@ -8,7 +8,7 @@ if all need information is present.
 If everything is ok, the scenario/challenge gets the label "proposal: approved ✅", else
 it gets the label "proposal: changes needed 👷" and changes are needed.
 
-Once a challenge is approved Pieter looks for a lead for the challenge.
+Once a challenge is approved Pieter Heyvaert looks for a lead for the challenge.
 
 ### Updates on ongoing challenges
 Challenges that have a lead assigned require a status update via the issue every 2 weeks.
