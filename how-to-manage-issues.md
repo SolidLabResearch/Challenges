@@ -21,3 +21,10 @@ if the demo is sufficient.
 If everything is ok, the scenario/challenge gets the label "completion: approved ✅" and 
 the issue is closed, else
 it gets the label "completion: changes needed 👷" and changes are needed.
+
+Once a challenge is approved, 
+Pieter Heyvaert creates a new issue in the repo [SolidLabLib.js](https://github.com/SolidLabResearch/SolidLabLib.js).
+The person who created the code of the challenge has to add it to this library.
+There are requirements for adding code such as tests and documentation.
+Please check with Ruben Taelman for details. 
+He has ownership of this library.
