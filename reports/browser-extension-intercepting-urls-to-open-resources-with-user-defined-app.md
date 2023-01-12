@@ -2,7 +2,7 @@
 
 The corresponding challenge is [#45](https://github.com/SolidLabResearch/Challenges/issues/45).
 
-## Pitch
+## Problem
 
 In a decentralized Solid world many applications will provide functionality to do one or more specialised actions, 
 such as browsing files, playing games, creating a Doodle, participating in a Quiz. 
@@ -44,6 +44,10 @@ You find the code for this extension [here](https://github.com/phochste/AcmePlug
 ### Postconditions
 
 - The resource is opened in the preferred Solid app based on the extension's configuration.
+
+## Follow-up actions
+
+None. 
 
 ## Future work
 
