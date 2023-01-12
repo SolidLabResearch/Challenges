@@ -45,6 +45,6 @@ You find the code for this extension [here](https://github.com/phochste/AcmePlug
 
 - The resource is opened in the preferred Solid app based on the extension's configuration.
 
-### Future work
+## Future work
 
 - Advanced functions implementations might consider creating (N3) rules to decide what app to open based on resources/types.
