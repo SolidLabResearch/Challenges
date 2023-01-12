@@ -21,7 +21,8 @@ when the plugin is installed.
 
 ![](img/acmeplugin.png)
 
-## Code
+## Approved solution
+The approved solution is Acme Open In extension.
 You find the code for this extension [here](https://github.com/phochste/AcmePlugin).
 
 ## User flow
