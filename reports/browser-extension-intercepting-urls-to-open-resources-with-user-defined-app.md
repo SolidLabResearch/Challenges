@@ -12,7 +12,6 @@ In this environment users have a preference for apps they want to use to do some
 - When the user wants to play chess, she wants to use App Y.
 - When the user wants to edit a text resource, she wants to use App Z.
 
-This challenge is specific for solving "what to App to use when reading Solid pod `inbox` notifications".
 We developed a [browser extension](https://github.com/phochste/AcmePlugin) that 
 allows users to open resources with existing Solid apps via the context menu.
 You can configure what Web pages and resources are considered by the extension and what specific apps should be used. 
