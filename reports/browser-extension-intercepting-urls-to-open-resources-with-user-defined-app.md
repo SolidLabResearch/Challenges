@@ -12,6 +12,8 @@ In this environment users have a preference for apps they want to use to do some
 - When the user wants to play chess, she wants to use App Y.
 - When the user wants to edit a text resource, she wants to use App Z.
 
+## Approved solution
+
 We developed a [browser extension](https://github.com/phochste/AcmePlugin) that 
 allows users to open resources with existing Solid apps via the context menu.
 You can configure what Web pages and resources are considered by the extension and what specific apps should be used. 
@@ -20,20 +22,16 @@ when the plugin is installed.
 
 ![](img/acmeplugin.png)
 
-## Approved solution
-The approved solution is Acme Open In extension.
-You find the code for this extension [here](https://github.com/phochste/AcmePlugin).
-
 ## User flow
 
 ### Actors/actresses 
 
-- User of the application
 - Browser extension
+- User of the extension
 
 ### Preconditions
 
-- User has installed the extension in the browser.
+- The user has installed the extension in the browser.
 
 ### Steps
 
