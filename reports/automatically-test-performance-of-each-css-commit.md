@@ -1,4 +1,4 @@
-# Automatically test performance of each CSS commit
+# Automatically test performance of each Community Solid Server commit
 
 The corresponding challenge is [#23](https://github.com/SolidLabResearch/Challenges/issues/23).
 
