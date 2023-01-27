@@ -41,8 +41,8 @@ None.
 
 ### Steps
 
-- The user opens the Web app.
-- The user searched for "editor".
+1. The user opens the Web app.
+2. The user searched for "editor".
 
 ### Postconditions
 

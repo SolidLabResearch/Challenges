@@ -30,8 +30,8 @@ a [set of N3 rules](https://github.com/SolidLabResearch/SolidLoginGreeter/blob/m
 
 ### Steps
 
-- The user opens the Web app.
-- The user logs in with their WebID.
+1. The user opens the Web app.
+2. The user logs in with their WebID.
 
 ### Postconditions
 

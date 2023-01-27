@@ -35,9 +35,9 @@ when the plugin is installed.
 
 ### Steps
 
-- The user visits a Web page that is considered by the extension.
-- The user right-clicks on a resource that is considered by the extension.
-- The extension opens the corresponding Solid app and loads the resource.
+1. The user visits a Web page that is considered by the extension.
+2. The user right-clicks on a resource that is considered by the extension.
+3. The extension opens the corresponding Solid app and loads the resource.
 
 ### Postconditions
 
