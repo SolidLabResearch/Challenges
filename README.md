@@ -18,3 +18,4 @@ You find all reports [here](reports).
 - Find all ongoing challenges [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge+label%3Aongoing).
 - Find all challenges that await completion approval [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aopen+label%3A%22completion%3A+pending+%E2%9D%93%22+label%3A%22challenge%22).
 - Find all completed challenges [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aclosed+label%3A%22completion%3A+approved+%E2%9C%85%22).
+- Find all completed challenges without a report [here](https://github.com/SolidLabResearch/Challenges/issues?q=is%3Aissue+is%3Aclosed+label%3A%22completion%3A+approved+%E2%9C%85%22+-label%3A%22report%3A+done+%E2%9C%85%22).
