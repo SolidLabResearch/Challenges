@@ -17,7 +17,7 @@ The instance is reset every 24 hours,
 specifically at 5:00 local time in Belgium.
 During every reset the latest version of CSS is used.
 It's possible to initiate the instance with a predefined set of accounts and corresponding data.
-You provide the predefined accounts like the following:
+You provide the predefined accounts as follows:
 
 ```json
 [
