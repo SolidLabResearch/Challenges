@@ -35,6 +35,8 @@ You provide the predefined accounts as follows:
 ]
 ```
 
+Please contact [Pieter Heyvaert](mailto:pieter.heyvaert@ugent.be) if you would like to add predefined accounts.
+
 ## Follow-up actions
 
 None.
