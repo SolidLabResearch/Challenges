@@ -3,9 +3,32 @@
 Once a scenario or challenge is completed, we write a report.
 You find the template [here](template.md).
 
+## All reports
+
 - [App that lists apps and tooling](./app-that-lists-apps-and-tooling.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [Browser extension intercepting urls to open resources with user-defined app](./browser-extension-intercepting-urls-to-open-resources-with-user-defined-app.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
+
+## Reports with follow-up actions
+
+Below you find the reports with follow-up actions for
+the Community Solid Server, Comunica, SolidLabLib.js, or other libraries/tools.
+
+### Community Solid Server
+
+None.
+
+### Comunica
+
+None.
+
+### SolidLabLib.js
+
+- [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
+
+### Other
+
+- [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
