@@ -22,6 +22,9 @@ that allows users to
 * create files (resources)
 * modify files (resources)
 
+You can watch a screencast [here](https://cloud.ilabt.imec.be/index.php/s/Ty2pNyqtmDn5Qsk).
+The source code of the extension is not publicly available.
+
 ## Follow-up actions
 
 None.
