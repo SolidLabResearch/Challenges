@@ -35,7 +35,7 @@ that allows users to
 
 You find a screenshot below for a book review form:
 
-![Form viewer showing the fields of a form for book review](img/form-viewer.png)
+![Form renderer showing the fields of a form for book review](img/form-renderer.png)
 
 In the screenshot, you see the following components:
 
