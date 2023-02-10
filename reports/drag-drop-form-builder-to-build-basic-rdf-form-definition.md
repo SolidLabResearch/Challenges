@@ -16,9 +16,11 @@ This application is one application that can be used in an environment in which:
 
 These three components can work together, for example, so that 
 
-1. a form builder can create a Doodle form, 
-2. a form render can make the HTML version to input the data, and 
-3. a form viewer can render a nice read-only view.
+1. a form builder creates a Doodle form, 
+2. a form renderer makes a HTML version to input the data, and 
+3. a form viewer generates a nice read-only view.
+
+See also the report ["Form renderer that to view RDF form and store filled-in data in pod"](./form-renderer-to-view-form-store-data.md).
 
 ## Approved solution
 We developed a [Web app](https://github.com/smessie/FormGenerator) 
