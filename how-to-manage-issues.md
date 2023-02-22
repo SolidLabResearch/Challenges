@@ -20,8 +20,7 @@ you assign the issue to Ruben Verborgh.
 You unassign the others.
 He checks if all acceptance criteria are met and 
 if the demo is sufficient. 
-If everything is ok, the scenario/challenge gets the label "completion: approved ✅" and 
-the issue is closed, else
+If everything is ok, the scenario/challenge gets the labels "completion: approved ✅" and "report: ongoing 👷", else
 it gets the label "completion: changes needed 👷" and changes are needed.
 
 The following only applies to helper code.
@@ -35,3 +34,4 @@ Please check with Ruben Taelman for details.
 He has ownership of this library.
 - You inform Pieter Heyvaert about future work and actions that you discovered when working on the challenge.
 - Pieter Heyvaert writes a report for this challenge using [this template](reports/template.md).
+Once the report is done, Pieter adds label "report: done ✅" and closes the issue.
