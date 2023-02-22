@@ -5,6 +5,7 @@ You find the template [here](template.md).
 
 ## All reports
 
+- [Aggregators to improve social media data access across many pods](./aggregators-to-improve-social-media-data-access-across-many-pods.md)
 - [App that lists apps and tooling](./app-that-lists-apps-and-tooling.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [Browser extension intercepting urls to open resources with user-defined app](./browser-extension-intercepting-urls-to-open-resources-with-user-defined-app.md)
