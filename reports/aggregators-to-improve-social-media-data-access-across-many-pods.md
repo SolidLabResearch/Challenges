@@ -56,10 +56,14 @@ We do this by re-evaluating the queries every time a resource has changed.
 3. Set up and start servers via `npm run setupAndStartServers`.
 4. Wait till the console says "Everything is set up and ready for the demo!".
 5. Execute one of the four demo queries in a new terminal:
-    - `npm run simple-query` (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-1))
-    - `npm run complex-query` (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-2))
-    - `npm run link-traversal-query` (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-3))
-    - `npm run update-example` (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-4))
+    - Find all the WebIDs of the friends of pod `00000000000000000933` via `npm run simple-query` 
+      (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-1)).
+    - Determine the distance between user `00000000000000000102` and some predetermined users via `npm run complex-query` 
+      (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-2)).
+    - Find all the posts in a pod (including where they were posted and their contents) via `npm run link-traversal-query` 
+      (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-3)).
+    - Find all the WebId's of the friends of pod `00000000000000000933` while adding and removing a friend every 2 second 
+      via `npm run update-example` (see [details](https://github.com/maartyman/solidBenchAggregatorDemo#demo-4)).
 
 ### Postconditions
 
