@@ -89,13 +89,12 @@ Using the aggregator it takes only 0.005s to get the results, while
 when executing the query solely in a client application it takes 46.363s.
 
 ## Follow-up actions
-<!--
-List all concrete follow-up actions that someone has to do.
-For example, adding helper code from the solution to Comunica.
--->
+
+- Instead of re-executing the query, use incremental approaches.
+- Use incremental link-traversal.
+- Use incremental schema-alignment.
+- Research discoverability of the aggregator and combining the result of multiple aggregators to get the results to a query.
 
 ## Future work
 
-- At the moment we keep bindings up to date by 
-re-evaluating the queries every time a resource has changed. 
-We could optimize this by using incremental query execution techniques. 
+None.
