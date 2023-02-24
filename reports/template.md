@@ -6,9 +6,11 @@ The title is based on the title of the challenge.
 
 <!--
 Fill in the challenge number below.
+Fill in the scenario number belos if applicable.
 -->
 
-The corresponding challenge is [#??](https://github.com/SolidLabResearch/Challenges/issues/??).
+The corresponding challenge is [#??](https://github.com/SolidLabResearch/Challenges/issues/??),
+which contributes to scenario [#??](https://github.com/SolidLabResearch/Challenges/issues/??).
 
 ## Problem
 <!--
