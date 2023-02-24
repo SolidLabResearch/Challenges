@@ -14,6 +14,7 @@ You find the template [here](template.md).
 - [Edit pod files in Visual Studio Code](./edit-pod-files-in-vs-code.md)
 - [Form renderer that to view RDF form and store filled-in data in pod](./form-renderer-to-view-form-store-data.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
+- [Orchestrator to forward LDN notifications to LDN inbox based on N3 rules](./orchestrator-to-forward-ldn-notifications-to-inbox-based-on-n3-rules.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
 
