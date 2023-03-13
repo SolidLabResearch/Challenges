@@ -16,8 +16,11 @@ Challenges that have a lead assigned require a status update via the issue every
 ### Requirements before requesting completion approval of challenge
 Verify the following requirements before requesting the completion approval of your challenge:
 
-- The code/library/demo of the challenge must work with the Community Solid Server (CSS).
+- The code/library/demo of the challenge must meet all acceptance criteria.
+- The code/library/demo must work with the Community Solid Server (CSS).
   CSS follows the Solid protocol so whatever the challenge produces as output must work with CSS.
+- You must provide copy-paste instructions to showcase the output of the challenge.
+  You find an example [here](https://github.com/maartyman/solidBenchAggregatorDemo).
 - If the output of a challenge is a graphical user interface, such as a Web app or desktop app,
   then you have to provide a screencast of a flow demonstrating the acceptance criteria.
 
