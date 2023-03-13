@@ -24,7 +24,8 @@ stores them on their pods.
 
 The repository contains both a [frontend](https://github.com/renyuneyun/calendar-orchestrator/tree/main/app) and 
 a [backend](https://github.com/renyuneyun/calendar-orchestrator/tree/main/core), but
-only the backend is relevant for this challenge.
+only the backend is relevant for [challenge #68](https://github.com/SolidLabResearch/Challenges/issues/68) and
+this report.
 
 ## User flow
 
