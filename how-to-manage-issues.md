@@ -13,6 +13,14 @@ Once a challenge is approved Pieter Heyvaert looks for a lead for the challenge.
 ### Updates on ongoing challenges
 Challenges that have a lead assigned require a status update via the issue every 2 weeks.
 
+### Requirements before requesting completion approval of challenge
+Verify the following requirements before requesting the completion approval of your challenge:
+
+- The code/library/demo of the challenge must work with the Community Solid Server (CSS).
+  CSS follows the Solid protocol so whatever the challenge produces as output must work with CSS.
+- If the output of a challenge is a graphical user interface, such as a Web app or desktop app,
+  then you have to provide a screencast of a flow demonstrating the acceptance criteria.
+
 ### Completed scenarios and challenges
 Every scenario and challenge that you consider completed 
 you assign the label "completion: pending ❓" and 
