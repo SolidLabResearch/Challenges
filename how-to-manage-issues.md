@@ -23,6 +23,7 @@ Verify the following requirements before requesting the completion approval of y
   You find an example [here](https://github.com/maartyman/solidBenchAggregatorDemo).
 - If the output of a challenge is a graphical user interface, such as a Web app or desktop app,
   then you have to provide a screencast of a flow demonstrating the acceptance criteria.
+  The screencast needs to have audio explaining what is happening.
 
 ### Completed scenarios and challenges
 Every scenario and challenge that you consider completed 
