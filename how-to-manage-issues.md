@@ -44,11 +44,10 @@ He checks the following:
 If everything is ok, the scenario/challenge gets the labels "completion: approved ✅" and "report: ongoing 👷", else
 it gets the label "completion: changes needed 👷" and changes are needed.
 
-The following only applies to the reusable code.
 Once a challenge is approved three things happen:
 
 - Pieter Heyvaert creates a new issue in the repo [SolidLabLib.js](https://github.com/SolidLabResearch/SolidLabLib.js)
-for the reusable code. 
+for the reusable code, if any.
 - The person who created the code of the challenge has to add this code to this library.
 There are requirements for adding code such as tests and documentation.
 Please check with Ruben Taelman for details. 
