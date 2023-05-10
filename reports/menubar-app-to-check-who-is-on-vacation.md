@@ -85,13 +85,13 @@ For example, adding helper code from the solution to Comunica.
 
 - Clarify use of the Community Solid Server-specific 
 [Client Credentials](https://communitysolidserver.github.io/CommunitySolidServer/6.x/usage/client-credentials/) in 
-the README of the app.
+the README of the app ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/2)).
 - The app stores the id and secret used by the Client Credentials in a JSON file on the disk of the user.
-Are there suggestions on how to make this safer?
-- Clarify why the app does not use [BashLib](https://github.com/SolidLabResearch/Bashlib/).
+Are there suggestions on how to make this safer ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/5))?
+- Clarify why the app does not use [BashLib](https://github.com/SolidLabResearch/Bashlib/) ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/3)).
 - Regarding the code to populate the test pods:
-  - Investigate if this code should be in a separate library.
-  - Clarify why this code did not use [BashLib](https://github.com/SolidLabResearch/Bashlib/).
+  - Investigate if this code should be in a separate library ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/4)).
+  - Clarify why this code did not use [BashLib](https://github.com/SolidLabResearch/Bashlib/) ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/3)).
 
 ## Future work
 <!--
@@ -104,5 +104,5 @@ You can create a new challenge/scenario for each idea.
 the [Solid-OIDC](https://solidproject.org/TR/oidc) spec regarding 
 the need for something like Client Credentials.
 We also have [a challenge](https://github.com/SolidLabResearch/Challenges/issues/13) about that.
-- How can the app use Solid-OIDC for authentication instead of Client Credentials?
+- How can the app use Solid-OIDC for authentication instead of Client Credentials ([issue](https://github.com/SolidLabResearch/solid-menubar-app/issues/6))?
 That way the app works with all Solid identity providers.
