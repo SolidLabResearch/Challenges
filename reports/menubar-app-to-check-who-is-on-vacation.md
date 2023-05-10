@@ -19,8 +19,8 @@ names of tools/libraries created, repos, and so on.
 
 We developed a [menubar app](https://github.com/SolidLabResearch/solid-menubar-app) that
 shows who is when on vacation.
-
-Below you find a screenshot of the app.
+You find a screencast of the app [here](https://cloud.ilabt.imec.be/index.php/s/HEeGsCS4PiQxaS7)
+and below you find a screenshot.
 
 ![img.png](img/solid-menubar-app.png)
 
@@ -100,6 +100,9 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
-- TODO: add link to discussions about client credentials.
-- How can the app use [Solid-OIDC](https://solidproject.org/TR/oidc) for authentication instead of Client Credentials?
+- There is an [ongoing discussion](https://github.com/solid/solid-oidc/issues/75) in 
+the [Solid-OIDC](https://solidproject.org/TR/oidc) spec regarding 
+the need for something like Client Credentials.
+We also have [a challenge](https://github.com/SolidLabResearch/Challenges/issues/13) about that.
+- How can the app use Solid-OIDC for authentication instead of Client Credentials?
 That way the app works with all Solid identity providers.
