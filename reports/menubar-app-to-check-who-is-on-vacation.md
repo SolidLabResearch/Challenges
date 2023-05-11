@@ -24,6 +24,20 @@ and below you find a screenshot.
 
 ![img.png](img/solid-menubar-app.png)
 
+We made the following important technological decisions and assumptions:
+- We use the Community Solid Server-specific
+  [Client Credentials](https://communitysolidserver.github.io/CommunitySolidServer/6.x/usage/client-credentials/)
+  to log in and authenticate.
+  There is an [ongoing discussion](https://github.com/solid/solid-oidc/issues/75) in
+  the [Solid-OIDC](https://solidproject.org/TR/oidc) spec regarding
+  the need for something like Client Credentials.
+- We use Electron because it allows us to reuse existing JavaScript libraries and 
+  make the app cross-platform.
+- Users have to manually provide the urls of the vacation calendars.
+  We didn't include the automatic discovery of this information.
+- We assume that the vacation calendar lists the dates via the predicate `https://data.knows.idlab.ugent.be/person/office/#date`.
+- We assume that the name in the WebID is provided via the predicate `http://schema.org/name`.
+
 ## User flow
 
 <!--
