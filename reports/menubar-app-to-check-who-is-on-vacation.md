@@ -31,7 +31,7 @@ We made the following important technological decisions and assumptions:
   There is an [ongoing discussion](https://github.com/solid/solid-oidc/issues/75) in
   the [Solid-OIDC](https://solidproject.org/TR/oidc) spec regarding
   the need for something like Client Credentials.
-- We use Electron because it allows us to reuse existing JavaScript libraries and 
+- We use [Electron](https://www.electronjs.org/) because it allows us to reuse existing JavaScript libraries and 
   make the app cross-platform.
 - Users have to manually provide the urls of the vacation calendars.
   We didn't include the automatic discovery of this information.
