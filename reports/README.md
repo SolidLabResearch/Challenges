@@ -15,6 +15,7 @@ You find the template [here](template.md).
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Form renderer that to view RDF form and store filled-in data in pod](./form-renderer-to-view-form-store-data.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
+- [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
 
