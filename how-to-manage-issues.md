@@ -24,6 +24,8 @@ Verify the following requirements before requesting the completion approval of y
 - If the output of a challenge is a graphical user interface, such as a Web app or desktop app,
   then you have to provide a screencast of a flow demonstrating the acceptance criteria.
   The screencast needs to have audio explaining what is happening.
+- You must provide a list of important technical decisions and assumptions that were made,
+such as the shape and the location of data.
 - You must provide conclusions/actions that result from doing this challenge.
   For example, mention an unclarity in a specification, 
   the need for a new function in a used library,
