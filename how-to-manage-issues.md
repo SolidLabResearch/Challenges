@@ -52,5 +52,10 @@ for the reusable code, if any.
 There are requirements for adding code such as tests and documentation.
 Please check with Ruben Taelman for details. 
 He has ownership of this library.
-- Pieter Heyvaert writes a report for this challenge using [this template](reports/template.md).
-Once the report is done, Pieter adds label "report: done ✅" and closes the issue.
+- Pieter Heyvaert writes a report as explained in the next section.
+
+### Report
+
+Once a challenge is completed Pieter Heyvaert writes a report using [this template](reports/template.md).
+The person who reviewed the solution of the challenge also reviews the report.
+Once the report is done, Pieter adds label "report: done ✅" to the issue and closes it.
