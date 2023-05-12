@@ -23,6 +23,12 @@ For example, it might happen that the approved solution does more than what the 
 Provide information about the approved solution:
 names of tools/libraries created, repos, and so on.
 -->
+
+<!--
+Provide a list of important technical decisions and assumptions.
+-->
+We made the following important technological decisions and assumptions:
+- TODO
 ## User flow
 
 <!--
