@@ -11,7 +11,8 @@ For example, it might happen that the approved solution does more than what the 
 
 Data streams are becoming omnipresent and 
 are a crucial component in many use cases. 
-Storing streams in a low-cost file-based Web environment could be done using Linked Data Event Streams (LDES). 
+Storing streams in a low-cost file-based Web environment could be done using 
+[Linked Data Event Streams](https://semiceu.github.io/LinkedDataEventStreams/) (LDES). 
 However, pushing large volumes of high volatile data into a Solid-based LDES is not possible because 
 the [current solution](https://github.com/woutslabbinck/SolidEventSourcing) does the partitioning of the data 
 after all data has been retrieved, 
