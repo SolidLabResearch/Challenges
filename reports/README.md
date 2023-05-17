@@ -18,6 +18,7 @@ You find the template [here](template.md).
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
+- [Storing large real-time data streams in pod using LDES](./storing-large-real-time-data-streams-in-pod-using-LDES.md)
 
 ## Reports with follow-up actions
 

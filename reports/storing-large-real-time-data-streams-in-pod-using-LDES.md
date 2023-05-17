@@ -32,6 +32,9 @@ even though the data is historical data.
 This allows to showcase how solutions can process live data streams and
 how they can handle different data rates.
 
+TODO: @Stijn Does this build on [this](https://github.com/woutslabbinck/SolidEventSourcing)?
+Is it a dependency?
+
 ## Approved solution
 <!--
 Provide information about the approved solution:
@@ -57,7 +60,7 @@ Provide a list of important technical decisions and assumptions.
 -->
 
 We made the following important technological decisions and assumptions:
-- TODO: Ask Stijn.
+- TODO: @Stijn Can you add this?
 
 ## User flow
 
@@ -68,11 +71,130 @@ Complete the following sections:
 
 ### Actors/actresses
 
+- User of the tool
+
 ### Preconditions
+
+Configure the engine via the following steps:
+
+1. Clone [the repository](https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic-Observations-Replay) via
+   ```shell
+   git clone https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic-Observations-Replay
+   ```
+2. Navigate to `LDES-in-SOLID-Semantic-Observations-Replay` via
+   ```shell
+   cd LDES-in-SOLID-Semantic-Observations-Replay
+   ```
+3. Start an instance of the Community Solid Server via
+   ```shell
+   docker run --rm -p 3000:3000 -it solidproject/community-server:latest -c config/default.json
+   ```
+4. Open a new terminal at the same location.
+5. Navigate to `engine` via
+   ```shell
+   cd engine
+   ```
+6. Install dependencies via
+   ```shell
+   npm i
+   ```
+7. Download the example DAHCC dataset via 
+   ```shell
+   curl -L https://cloud.ilabt.imec.be/index.php/s/8BatNcg2iEyJktR/download -o data/dataset_participant1_100obs
+   ```
+8. Replace the content of file `src/config/replay_properties.json` with
+   ```json
+   {
+      "port": "3001",
+      "loglevel": "info",
+      "logname": "WEB API",
+      "__comment__" : "enter the location of your dataset folder below this in datasetFolders field. e.g. /home/data/",
+      "datasetFolders": "REPLACE THIS",
+      "credentialsFileName": null,
+      "lilURL": "http://localhost:3000/dataset_participant1/data/",
+      "treePath": "https://saref.etsi.org/core/hasTimestamp",
+      "chunkSize": 10,
+      "bucketSize": 10,
+      "targetResourceSize": 1024
+   }
+   ```
+9. Set the value of `datasetFolders` to the full path of the folder `engine/data`.
+10. Start the engine via
+   ```shell
+   npm start
+   ```
+
+If you get an error, see the [README](https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic-Observations-Replay#installation) of the repository.
 
 ### Steps
 
+1. Get all loadable datasets using a GET request via
+   ```shell
+   curl http://localhost:3001/datasets
+   ```
+   You get something like
+   ```shell
+   ["dataset_participant1_100obs","dataset_participant2_100obs"]
+   ```
+2. Load a particular dataset using a GET request via
+   ```shell
+   curl http://localhost:3001/loadDataset?dataset=dataset_participant1_100obs ==> 
+   ```
+   You get an empty result.
+3. Check the loading progress (in quad count) using a GET request via
+   ```shell
+   curl http://localhost:3001/checkLoadingSize
+   ```
+   You get something like
+   ```shell
+   [500]
+   ```
+4. Get the actual observation count (quads / observation) using a GET request via
+   ```shell
+   curl http://localhost:3001/checkObservationCount
+   ```
+   You get something like
+   ```shell
+   [100]
+   ```
+5. Sort the loaded observations (as according to the configured TreePath) using a GET request via
+   ```shell
+   curl http://localhost:3001/sortObservations
+   ```
+   You get something like
+   ```shell
+   [["https://dahcc.idlab.ugent.be/Protego/_participant1/obs0","https://dahcc.idlab.ugent.be/Protego/_participant1/obs1","https://dahcc.idlab.ugent.be/Protego/_participant1/obs2" ... ]]
+   ```
+6. Get a sample (as in the configured chunk) set of observations using a GET request via
+   ```shell
+   curl http://localhost:3001/getObservations
+   ```
+   You get something like
+   ```shell
+   [{"termType":"NamedNode","value":"https://dahcc.idlab.ugent.be/Protego/_participant1/obs0"},{"termType":"NamedNode","value":"https://dahcc.idlab.ugent.be/Protego/_participant1/obs1"} ...}]
+   ```
+7. Replay one next observation using a GET request via
+   ```shell
+   curl http://localhost:3001/advanceAndPushObservationPointer
+   ```
+   You get something like
+   ```shell
+   [1]
+   ```
+   This represents the pointer to the next replayable observation.
+   Checking the LDES in the Solid pod (default: http://localhost:3000/test/),
+   you should see at least two containers (the inbox and the LDES buckets),
+   where the LDES buckets should now contain the replayed observation,
+   for example http://localhost:3000/test/1641197095000/aa28a2fa-010f-4b81-8f3c-a57f45e13758.
+
+8. Replay all remaining observations using a GET request via
+   ```shell
+   curl http://localhost:3001/advanceAndPushObservationPointerToTheEnd
+   ```
+
 ### Postconditions
+
+All observations are in the pod.
 
 ## Follow-up actions
 <!--
@@ -80,9 +202,12 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
+TODO @Stijn @PieterB
 ## Future work
 <!--
 List ideas for future work.
 These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
+
+TODO @Stijn @PieterB
