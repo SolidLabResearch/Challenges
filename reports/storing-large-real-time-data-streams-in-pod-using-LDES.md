@@ -103,24 +103,8 @@ Configure the engine via the following steps:
    ```shell
    curl -L https://cloud.ilabt.imec.be/index.php/s/8BatNcg2iEyJktR/download -o data/dataset_participant1_100obs
    ```
-8. Replace the content of file `src/config/replay_properties.json` with
-   ```json
-   {
-      "port": "3001",
-      "loglevel": "info",
-      "logname": "WEB API",
-      "__comment__" : "enter the location of your dataset folder below this in datasetFolders field. e.g. /home/data/",
-      "datasetFolders": "REPLACE THIS",
-      "credentialsFileName": null,
-      "lilURL": "http://localhost:3000/dataset_participant1/data/",
-      "treePath": "https://saref.etsi.org/core/hasTimestamp",
-      "chunkSize": 10,
-      "bucketSize": 10,
-      "targetResourceSize": 1024
-   }
-   ```
-9. Set the value of `datasetFolders` to the full path of the folder `engine/data`.
-10. Start the engine via
+8. Set the value of `datasetFolders` to the full path of the folder `engine/data` in the file `src/config/replay_properties.json`.
+9. Start the engine via
    ```shell
    npm start
    ```
@@ -139,7 +123,7 @@ If you get an error, see the [README](https://github.com/SolidLabResearch/LDES-i
    ```
 2. Load a particular dataset using a GET request via
    ```shell
-   curl http://localhost:3001/loadDataset?dataset=dataset_participant1_100obs ==> 
+   curl http://localhost:3001/loadDataset?dataset=dataset_participant1_100obs
    ```
    You get an empty result.
 3. Check the loading progress (in quad count) using a GET request via
