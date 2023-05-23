@@ -33,9 +33,6 @@ even though the data is historical data.
 This allows to showcase how solutions can process live data streams and
 how they can handle different data rates.
 
-TODO: @Stijn Does this build on [this](https://github.com/woutslabbinck/SolidEventSourcing)?
-Is it a dependency?
-
 ## Approved solution
 <!--
 Provide information about the approved solution:
@@ -55,6 +52,10 @@ The repository contains both a [Web app](https://github.com/SolidLabResearch/LDE
 a [engine](https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic-Observations-Replay/tree/main/engine), but
 only the engine is relevant for [challenge #82](https://github.com/SolidLabResearch/Challenges/issues/82) and
 this report.
+
+The solution builds on [this code](https://github.com/woutslabbinck/SolidEventSourcing).
+The code is not included as a dependency as it was not designed as a library.
+We copy and pasted the parts of the code that were useful for our solution.
 
 <!--
 Provide a list of important technical decisions and assumptions.
