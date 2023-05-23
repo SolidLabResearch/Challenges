@@ -43,7 +43,7 @@ We developed a [tool](https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic
 replays captured streams. 
 The tool has the following features:
 
-- TO VERIFY: The tool can connect to a pull- or push-based RDF stream.
+- The tool is pull-based as it pulls the observations from n-triples files.
 - The tool adds new events to the right bucket.
 - If new buckets are required, the tool updates the LDES.
 - The user can parameterize the bucket size.
