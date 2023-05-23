@@ -197,4 +197,11 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
-TODO @Stijn @PieterB
+- Real-time replay including throttling. 
+Challenge [#83](https://github.com/SolidLabResearch/Challenges/issues/83) is relevant,
+together with the [roadmap](https://github.com/SolidLabResearch/LDES-in-SOLID-Semantic-Observations-Replay#roadmap)
+in the solution's repository.
+- Elaborate filtering on the datasets used, such as selecting specific metrics that need to be replayed rather than the entire dataset.
+- Improve the LDES in LDP approach, if possible.
+
+
