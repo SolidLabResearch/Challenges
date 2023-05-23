@@ -188,7 +188,8 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
-TODO @Stijn @PieterB
+None.
+
 ## Future work
 <!--
 List ideas for future work.
