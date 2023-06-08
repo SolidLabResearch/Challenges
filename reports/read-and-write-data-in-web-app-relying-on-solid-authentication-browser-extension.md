@@ -19,7 +19,7 @@ Provide information about the approved solution:
 names of tools/libraries created, repos, and so on.
 -->
 
-We developed a [Web app](https://github.com/pheyvaer/markdown-editor) that allows 
+We developed a [Web app](https://github.com/SolidLabResearch/markdown-editor) that allows 
 users to edit Markdown files using only GET and PUT requests.
 It has the following features:
 
@@ -29,7 +29,8 @@ It has the following features:
 - WebID and browser extension are not needed when working with public resources.
 - Show urls of most recent files. The urls are stored in the browser storage.
 
-You find a screencast of the app [here](https://cloud.ilabt.imec.be/index.php/s/JcqFbRzNMFztC8D).
+You find a live version of the app [here](https://solidlabresearch.github.io/markdown-editor/) and 
+a screencast of the app [here](https://cloud.ilabt.imec.be/index.php/s/JcqFbRzNMFztC8D).
 
 <!--
 Provide a list of important technical decisions and assumptions.
@@ -64,9 +65,9 @@ You can create both for testing via the [Pod Playground of SolidLab](https://pod
 
 ### Steps
 
-1. Clone [the repo of the app](https://github.com/pheyvaer/markdown-editor) via
+1. Clone [the repo of the app](https://github.com/SolidLabResearch/markdown-editor) via
    ```shell
-   git clone https://github.com/pheyvaer/markdown-editorgit
+   git clone https://github.com/SolidLabResearch/markdown-editor.git
    ```
 2. Install the dependencies via
    ```shell
