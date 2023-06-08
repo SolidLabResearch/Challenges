@@ -8,7 +8,7 @@ You can reuse the pitch of the challenge, but check if you need to make changes.
 For example, it might happen that the approved solution does more than what the original pitch requested.
 -->
 
-The goal of [this browser extension](https://github.com/SolidLabResearch/Challenges/issues/67) is that requests are 
+The goal of [this browser extension](https://github.com/KNowledgeOnWebScale/solid-authentication-browser-extension/) is that requests are 
 automatically authenticated when needed. 
 Using this we can show that a Web app can be created that reads data from and stores data 
 in a protected resources in a pod without the need for including Solid authentication in the Web app.
