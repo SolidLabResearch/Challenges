@@ -30,9 +30,13 @@ The automated processes and rules are executed by the orchestrator, which is an 
 
 We developed [Koreografeye](https://github.com/eyereasoner/Koreografeye) that allows users to
 run automated processed against Solid pods.
-You can run Koreografeye on an input directory containing one or more RDF files (in Turtle or N3 format). 
-For each of these files one or more N3 rule scripts can be executed. 
-The results of this execution is put in an output directory.
+Koreografeye provides two commands: `orch` for the orchestrator and 
+`pol` for the policy executor.
+The `orch` command takes the input data,  
+use the N3 rules to decide what to do with the data, and
+put the results output folder.
+The `pol` command takes the output of the `orch` command and 
+executes the requested policies defined with the N3 rules.
 
 ## User flow
 
@@ -43,11 +47,38 @@ Complete the following sections:
 
 ### Actors/actresses
 
+- User of Koreographeye
+
 ### Preconditions
+
+- User has Node.js installed.
 
 ### Steps
 
+1. Clone the [demo repo](https://github.com/eyereasoner/KoreografeyeDemo) via 
+    ```shell
+    git clone https://github.com/eyereasoner/KoreografeyeDemo.git`
+   ```
+2. Install dependencies via 
+   ```shell
+   npm i
+   ```
+3. Run the `orch` command to process all RDF resources in the `in` directory using the `ldn.n3` rules file via
+   ```shell
+   npm run orch:ldn
+   ```
+   This generates the file `out/demo.ttl` as output containing the input RDF resource plus injected policies.
+4. Run the `pol` command against the output of step 3 via 
+   ```shell
+   npm run pol
+   ```
+   This will send a notification to https://httpbin.org/post 
+   using the [SendNotificationPlugin](https://github.com/eyereasoner/Koreografeye/blob/main/src/policy/plugin/SendNotificationPlugin.ts).
+
 ### Postconditions
+
+If https://httpbin.org/post pointed to a real Solid pod inbox, 
+then the notification would be available there.
 
 ## Follow-up actions
 <!--
@@ -55,9 +86,17 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
+- Integrate ErgoedPod `envo` or [Bashlib](https://github.com/SolidLabResearch/Bashlib/) into the Koreographeye to 
+provide out-of-the-box import of notifications. This is now an external dependency.
+- Current implementation is single threaded. 
+Make options to specify how many threads can be used to execute the policies
+
 ## Future work
 <!--
 List ideas for future work.
 These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
+
+- Current systems makes no assumptions on how policies should be executed, in which order, and what to do when policies fail. 
+Align with other groups to find a solution on how a composition of policies should be executed.
