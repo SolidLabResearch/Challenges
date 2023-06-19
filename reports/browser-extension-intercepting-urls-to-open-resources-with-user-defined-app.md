@@ -1,4 +1,4 @@
-# Browser extension intercepting urls to open resources with user-defined app
+# Browser extension: intercept urls to open resources with user-defined app
 
 The corresponding challenge is [#45](https://github.com/SolidLabResearch/Challenges/issues/45).
 
