@@ -163,7 +163,7 @@ For example, adding helper code from the solution to Comunica.
 
 - Due to how [Koreografeye](https://github.com/eyereasoner/Koreografeye) extracts policies from the Reasoning Result,
   the cardinality of target resources and assignees can only be 1.
-  A [feature request](https://github.com/eyereasoner/Koreografeye/issues/10) has been made to solve this problem at its root.
+  We made a [feature request](https://github.com/eyereasoner/Koreografeye/issues/10) to solve this problem at its root.
 - Investigate if the triple `<permissionIdentifier> <odrl:assignee> <WebID> .` is the best way to add the WebID to
   which we give access.
 
