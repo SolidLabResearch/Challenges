@@ -19,6 +19,7 @@ You find the template [here](template.md).
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Read and write data in Web app relying on Solid authentication browser extension](./read-and-write-data-in-web-app-relying-on-solid-authentication-browser-extension.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
+- [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-eexecution-for-solid-resources.md)
 
 ## Reports with follow-up actions
 
