@@ -56,3 +56,9 @@ List ideas for future work.
 These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
+
+## Lessons learned about developer experience
+<!--
+List all lessons learned about your experience as a Solid developer:
+issues you encountered, tasks that could be automated or could be made easier and so on.
+-->
