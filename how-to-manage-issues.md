@@ -31,6 +31,8 @@ such as the shape and the location of data.
   the need for a new function in a used library,
   a new challenge, or
   other future work.
+- You must provide the lessons you learned as a Solid developer, if any.
+  These can be issues you encountered, tasks that could be automated or could be made easier and so on.
 
 ### Completed scenarios and challenges
 Every scenario and challenge that you consider completed 

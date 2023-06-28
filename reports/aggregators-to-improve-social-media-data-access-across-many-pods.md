@@ -98,6 +98,7 @@ when executing the query solely in a client application it takes 46.363s.
 - Use incremental link-traversal.
 - Use incremental schema-alignment.
 - Research discoverability of the aggregator and combining the result of multiple aggregators to get the results to a query.
+- Expose a SPARQL endpoint so that any SPARQL client can use it. 
 
 ## Future work
 
