@@ -62,7 +62,20 @@ Provide a list of important technical decisions and assumptions.
 -->
 
 We made the following important technological decisions and assumptions:
-- TODO: @Stijn Can you add this?
+
+- JavaScript/TypeScript as main development language to be in-line with current practices.
+- LDES to represent a stream of events detected by IOT-related devices.
+- Implements paginated to support loading large datasets.
+- Data sources are N-triples files, as they represent the state of the devices and observations 
+  as originally persisted using [Apache Feather](https://arrow.apache.org/docs/python/feather.html).
+- Single-user demonstration implementation, as the main goal is validating the approach, 
+  not developing a industry-ready implementation.
+- [N3.js](https://www.npmjs.com/package/n3) for streaming and high-throughput handling of RDF data.
+- Implements recursive version of the [merge sort algorithm](https://en.wikipedia.org/wiki/Merge_sort) 
+  to sort the observation based on timestamp (configurable).
+- Implements pointer-based algorithm to keep track of last observation/event that has been replayed. 
+  The pointer can be advanced according to either the ordering by the end-user or automatically.
+- Implements optimisation to manage the size of the pods.
 
 ## User flow
 
