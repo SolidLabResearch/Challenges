@@ -3,15 +3,16 @@
 The corresponding challenge is [#111](https://github.com/SolidLabResearch/Challenges/issues/111).
 
 ## Problem
-For the [Sytadel project](https://www.imec-int.com/en/sytadel), 
-we want to share the positional data of a vessel when consent is given by the skipper. 
-The skipper is the captain of the ship and lives there, so he/she does not want to always share his positional data with anybody.
 
-Therefore, a first Proof of Concept (PoC) to have temporal access control is preferred.
-Since the project is related to the [International Data Space Association (IDSA)](https://internationaldataspaces.org/) and 
-there they have already defined some 
+Sharing data with other people, apps, and other agents is common in the Solid ecosystem.
+But you might not always want to share the data forever.
+You might want to share specific data for a limited amount of time.
+Therefore, we want a proof-of-concept that shows how we can give temporary access to a resource.
+
+The [International Data Space Association (IDSA)](https://internationaldataspaces.org/) has already defined some 
 [Usage Control Policies (UCPs)](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl) 
-such as the **Duration-restricted Data Usage** Policy, it would be preferred if the implementation uses such a policy as a basis.
+such as the Duration-restricted Data Usage Policy.
+It would be preferred if the implementation uses such a policy as a basis.
 
 ## Approved solution
 <!--
@@ -19,13 +20,17 @@ Provide information about the approved solution:
 names of tools/libraries created, repos, and so on.
 -->
 
-We developed a [plugin](https://github.com/SolidLabResearch/Solid-Agent/tree/feat/cron-plugin) for
-the [Solid Agent](https://github.com/SolidLabResearch/Solid-Agent) that allows
-TODO
-It has the following features:
-
-- TODO
-
+We developed two plugins for [Koreografeye](https://github.com/eyereasoner/Koreografeye): 
+[AclPlugin](https://github.com/SolidLabResearch/Solid-Agent/blob/feat/cron-plugin/src/plugins/AclPlugin.ts) and 
+[CronPlugin](https://github.com/SolidLabResearch/Solid-Agent/blob/feat/cron-plugin/src/plugins/CronPlugin.ts).
+The AclPlugin allows updating the ACL of a resource.
+The CronPlugin allows executing another plugin at a specific time.
+We also created 
+[N3 rules](https://github.com/SolidLabResearch/Solid-Agent/blob/main/rules/usage-control/CronRule.n3)
+to define how and when these plugins are executed.
+The [Solid Agent](https://github.com/SolidLabResearch/Solid-Agent) brings all these components together:
+it reads the policies, uses Koreografeye to reason over the policies and the rules, and
+identifies what tasks need to be executed using the aforementioned plugins.
 You find more information about how it works 
 [here](https://github.com/SolidLabResearch/Solid-Agent/tree/6d7c236ef7c872ae1430008708b465be6b4d027b/documentation/ucp#how-does-it-work).
 
@@ -174,7 +179,9 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
-None.
+- Combine temporary access with the [location app](https://github.com/SolidLabResearch/LocationHistory) 
+of challenge [#10](https://github.com/SolidLabResearch/Challenges/issues/10).
+We described this in challenge [#??](https://github.com/SolidLabResearch/Challenges/issues/??)
 
 ## Lessons learned about developer experience
 
