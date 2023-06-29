@@ -179,6 +179,7 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
+TODO 
 - Combine temporary access with the [location app](https://github.com/SolidLabResearch/LocationHistory) 
 of challenge [#10](https://github.com/SolidLabResearch/Challenges/issues/10).
 We described this in challenge [#??](https://github.com/SolidLabResearch/Challenges/issues/??)
