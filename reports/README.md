@@ -21,6 +21,7 @@ You find the template [here](template.md).
 - [Read and write data in Web app relying on Solid authentication browser extension](./read-and-write-data-in-web-app-relying-on-solid-authentication-browser-extension.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
 - [Storing large real-time data streams in pod using LDES](./storing-large-real-time-data-streams-in-pod-using-LDES.md)
+- [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)
 
 ## Reports with follow-up actions
 
@@ -44,3 +45,4 @@ None.
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
+- [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)
