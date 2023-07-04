@@ -22,7 +22,7 @@ names of tools/libraries created, repos, and so on.
 
 We developed two plugins for [Koreografeye](https://github.com/eyereasoner/Koreografeye): 
 [AclPlugin](https://github.com/SolidLabResearch/Solid-Agent/blob/main/src/plugins/AclPlugin.ts) and 
-[CronPlugin](https://github.com/SolidLabResearch/Solid-Agent/blob/feat/cron-plugin/src/plugins/CronPlugin.ts).
+[CronPlugin](https://github.com/SolidLabResearch/Solid-Agent/blob/main/src/plugins/CronPlugin.ts).
 The AclPlugin allows updating the ACL of a resource.
 The CronPlugin allows executing another plugin at a specific time.
 We also created 
