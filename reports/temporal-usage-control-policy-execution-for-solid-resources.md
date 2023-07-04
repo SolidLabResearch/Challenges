@@ -32,7 +32,7 @@ The [Solid Agent](https://github.com/SolidLabResearch/Solid-Agent) brings all th
 it reads the policies, uses Koreografeye to reason over the policies and the rules, and
 identifies what tasks need to be executed using the aforementioned plugins.
 You find more information about how it works 
-[here](https://github.com/SolidLabResearch/Solid-Agent/tree/6d7c236ef7c872ae1430008708b465be6b4d027b/documentation/ucp#how-does-it-work).
+[here](https://github.com/SolidLabResearch/Solid-Agent/tree/612b9efbbb7a63674d0e9350c8ac5d49427b9195/documentation/ucp#how-does-it-work).
 
 ## Screencast
 
