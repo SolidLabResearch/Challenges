@@ -39,7 +39,7 @@ We developed a [library](https://github.com/argahsuknesib/rspql-query-equivalenc
 the equivalence between two 
 [RSP-QL](https://re.public.polimi.it/retrieve/e0c31c0e-f3df-4599-e053-1705fe0aef77/RSP-QL-Semantics-A-Unifying%20Query%20Model%20to%20Explain%20Heterogeneity_11311-964309_Della%20Valle.pdf) 
 queries.
-RSP-QL is an extension of SPARQL to support continuous querying on data streams.
+RSP-QL is an extension of SPARQL to support continuous querying of data streams.
 These queries can work with timestamp-based RDF Stream Processing (RSP) engines.
 We developed [this demo](https://github.com/argahsuknesib/query-equivalence-demo) to show how the library works.
 
