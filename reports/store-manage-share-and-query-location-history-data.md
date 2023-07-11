@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://pietercolpaert.be/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/SindhuVasireddy/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Store, manage, share and query location (history) data
 
 The corresponding challenge is [#10](https://github.com/SolidLabResearch/Challenges/issues/10).

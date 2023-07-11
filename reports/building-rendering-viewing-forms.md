@@ -1,6 +1,19 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Solution creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Building, rendering, and viewing forms
 
-The corresponding challenge is [#19](https://github.com/SolidLabResearch/Challenges/issues/19).
+The corresponding scenario is [#19](https://github.com/SolidLabResearch/Challenges/issues/19).
 
 ## Problem
 

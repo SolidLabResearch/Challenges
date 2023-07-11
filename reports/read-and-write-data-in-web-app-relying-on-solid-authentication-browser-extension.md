@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://pieterheyvaert.com/#me
+Solution creator:
+  - https://pieterheyvaert.com/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Read and write data in Web app relying on Solid authentication browser extension
 
 The corresponding challenge is [#102](https://github.com/SolidLabResearch/Challenges/issues/102).

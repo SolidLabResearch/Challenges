@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Solution creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Browser extension intercepting urls to open resources with user-defined app
 
 The corresponding challenge is [#45](https://github.com/SolidLabResearch/Challenges/issues/45).

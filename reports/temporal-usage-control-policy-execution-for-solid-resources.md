@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://data.knows.idlab.ugent.be/person/woslabbi/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/woslabbi/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Temporal Usage Control Policy execution for Solid Resources
 
 The corresponding challenge is [#111](https://github.com/SolidLabResearch/Challenges/issues/111).

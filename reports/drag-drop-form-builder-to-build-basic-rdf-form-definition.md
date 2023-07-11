@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Solution creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Drag & drop form builder to build basic RDF form definition
 
 The corresponding challenge is [#64](https://github.com/SolidLabResearch/Challenges/issues/64).

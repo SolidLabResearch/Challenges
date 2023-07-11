@@ -3,7 +3,7 @@ Fill in the WebIDs of the people below.
 Leave this in comments!
 It's possible to have multiple people per role.
 
-Challenge creator:
+Challenge/scenario creator:
   - ADD WEBID
 Solution creator:
   - ADD WEBID

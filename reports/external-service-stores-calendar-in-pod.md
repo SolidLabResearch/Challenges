@@ -1,3 +1,17 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://pieterheyvaert.com/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/ruizhao/#me
+  - https://data.knows.idlab.ugent.be/person/zimengzhou/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # External service stores calendar in pod
 
 The corresponding challenge is [#68](https://github.com/SolidLabResearch/Challenges/issues/68),

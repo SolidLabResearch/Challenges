@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://pieterheyvaert.com/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/twalcarius/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Public Community Solid Server instance for testing
 
 The corresponding challenge is [#75](https://github.com/SolidLabResearch/Challenges/issues/75).

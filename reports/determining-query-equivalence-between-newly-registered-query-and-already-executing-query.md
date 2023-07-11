@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://argahsuknesib.github.io/me
+Solution creator:
+  - https://argahsuknesib.github.io/me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Determining query equivalence between newly registered query and already executing query
 
 The corresponding challenge is [#106](https://github.com/SolidLabResearch/Challenges/issues/106),

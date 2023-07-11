@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://data.knows.idlab.ugent.be/person/pbonte/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/stijnverstichel/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Storing large real-time data streams in pod using LDES
 
 The corresponding challenge is [#82](https://github.com/SolidLabResearch/Challenges/issues/82),
