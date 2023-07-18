@@ -10,6 +10,13 @@ it gets the label "proposal: changes needed 👷" and changes are needed.
 
 Once a challenge is approved Pieter Heyvaert looks for a lead for the challenge.
 
+### Before starting challenge
+
+- When developing a Solid Web app, 
+consider using our [template](https://github.com/SolidLabResearch/solid-web-app-template).
+If you don't use this template, let us know why 
+(see section "Requirements before requesting completion approval of challenge" below).
+
 ### Updates on ongoing challenges
 Challenges that have a lead assigned require a status update via the issue every 2 weeks.
 
@@ -33,6 +40,12 @@ such as the shape and the location of data.
   other future work.
 - You must provide the lessons you learned as a Solid developer, if any.
   These can be issues you encountered, tasks that could be automated or could be made easier and so on.
+- If you developed a Solid Web app, 
+but didn't use our [template](https://github.com/SolidLabResearch/solid-web-app-template), 
+you must let us know why.
+- You must create a 
+[GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+for your solution.
 
 ### Completed scenarios and challenges
 Every scenario and challenge that you consider completed 
