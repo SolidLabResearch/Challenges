@@ -22,6 +22,7 @@ You find the template [here](template.md).
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
 - [Storing large real-time data streams in pod using LDES](./storing-large-real-time-data-streams-in-pod-using-LDES.md)
 - [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)
+- [Visualisation of aggregated data using semantic dashboard](./visualiation-of-aggregated-data-using-semantic-dashboard.md)
 
 ## Reports with follow-up actions
 
