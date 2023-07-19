@@ -10,13 +10,19 @@ You find the template [here](template.md).
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [Browser extension intercepting urls to open resources with user-defined app](./browser-extension-intercepting-urls-to-open-resources-with-user-defined-app.md)
 - [Building, rendering, and viewing forms](./building-rendering-viewing-forms.md)
+- [Determining query equivalence between newly registered query and already executing query](./determining-query-equivalence-between-newly-registered-query-and-already-executing-query.md)
 - [Drag & drop form builder to build basic RDF form definition](./drag-drop-form-builder-to-build-basic-rdf-form-definition.md)
 - [Edit pod files in Visual Studio Code](./edit-pod-files-in-vs-code.md)
+- [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Form renderer that to view RDF form and store filled-in data in pod](./form-renderer-to-view-form-store-data.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
+- [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
 - [Orchestrator to forward LDN notifications to LDN inbox based on N3 rules](./orchestrator-to-forward-ldn-notifications-to-inbox-based-on-n3-rules.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
+- [Read and write data in Web app relying on Solid authentication browser extension](./read-and-write-data-in-web-app-relying-on-solid-authentication-browser-extension.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
+- [Storing large real-time data streams in pod using LDES](./storing-large-real-time-data-streams-in-pod-using-LDES.md)
+- [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)
 
 ## Reports with follow-up actions
 
@@ -38,3 +44,6 @@ None.
 ### Other
 
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
+- [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
+- [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
+- [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)

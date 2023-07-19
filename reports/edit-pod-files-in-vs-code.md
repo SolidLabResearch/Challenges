@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://id.inrupt.com/jeswr
+Solution creator:
+  - https://id.inrupt.com/jeswr
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Edit pod files in Visual Studio Code
 
 The corresponding challenge is [#80](https://github.com/SolidLabResearch/Challenges/issues/80).

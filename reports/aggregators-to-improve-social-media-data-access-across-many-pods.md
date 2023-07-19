@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://data.knows.idlab.ugent.be/person/pbonte/#me
+Solution creator:
+  - https://data.knows.idlab.ugent.be/person/maartenvdb/#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Aggregators to improve social media data access across many pods
 
 The corresponding challenge is [#24](https://github.com/SolidLabResearch/Challenges/issues/24).
@@ -98,6 +111,7 @@ when executing the query solely in a client application it takes 46.363s.
 - Use incremental link-traversal.
 - Use incremental schema-alignment.
 - Research discoverability of the aggregator and combining the result of multiple aggregators to get the results to a query.
+- Expose a SPARQL endpoint so that any SPARQL client can use it. 
 
 ## Future work
 

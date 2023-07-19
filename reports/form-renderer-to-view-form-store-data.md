@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Solution creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Form renderer that to view RDF form and store filled-in data in pod
 
 The corresponding challenge is [#65](https://github.com/SolidLabResearch/Challenges/issues/65).

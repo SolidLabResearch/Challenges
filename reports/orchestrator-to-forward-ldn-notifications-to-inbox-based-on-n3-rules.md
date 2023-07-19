@@ -1,3 +1,16 @@
+<!--
+Fill in the WebIDs of the people below.
+Leave this in comments!
+It's possible to have multiple people per role.
+
+Challenge/scenario creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Solution creator:
+  - https://patrickhochstenbach.net/profile/card#me
+Report writer:
+  - https://pieterheyvaert.com/#me
+-->
+
 # Orchestrator to forward LDN notifications to LDN inbox based on N3 rules
 
 The corresponding challenge is [#49](https://github.com/SolidLabResearch/Challenges/issues/49).
@@ -38,6 +51,12 @@ put the results output folder.
 The `pol` command takes the output of the `orch` command and 
 executes the requested policies defined with the N3 rules.
 
+<!--
+Provide a list of important technical decisions and assumptions.
+-->
+We made the following important technological decisions and assumptions:
+- TODO
+
 ## User flow
 
 <!--
@@ -47,7 +66,7 @@ Complete the following sections:
 
 ### Actors/actresses
 
-- User of Koreographeye
+- User of Koreografeye
 
 ### Preconditions
 
@@ -86,10 +105,12 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
-- Integrate ErgoedPod `envo` or [Bashlib](https://github.com/SolidLabResearch/Bashlib/) into the Koreographeye to 
-provide out-of-the-box import of notifications. This is now an external dependency.
-- Current implementation is single threaded. 
-Make options to specify how many threads can be used to execute the policies
+- Integrate the [Event Notifications Typescript library](https://github.com/ErfgoedPod/evno) or 
+[Bashlib](https://github.com/SolidLabResearch/Bashlib/) into Koreografeye to 
+provide out-of-the-box importing of notifications. 
+This is now an external dependency.
+- The current implementation is single threaded. 
+Make options to specify how many threads can be used to execute the policies.
 
 ## Future work
 <!--
@@ -100,3 +121,11 @@ You can create a new challenge/scenario for each idea.
 
 - Current systems makes no assumptions on how policies should be executed, in which order, and what to do when policies fail. 
 Align with other groups to find a solution on how a composition of policies should be executed.
+
+## Lessons learned about developer experience
+<!--
+List all lessons learned about your experience as a Solid developer:
+issues you encountered, tasks that could be automated or could be made easier and so on.
+-->
+
+TODO
