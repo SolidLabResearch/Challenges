@@ -47,6 +47,38 @@ identifies what tasks need to be executed using the aforementioned plugins.
 You find more information about how it works 
 [here](https://github.com/SolidLabResearch/Solid-Agent/tree/612b9efbbb7a63674d0e9350c8ac5d49427b9195/documentation/ucp#how-does-it-work).
 
+<!--
+Provide a list of important technical decisions and assumptions.
+-->
+We made the following important technological decisions and assumptions:
+
+- The UCP KG is modelled as a Solid container,
+  which furthermore requires that the Solid server supports
+  the [Solid Notifications Protocol](https://solidproject.org/TR/notifications-protocol) v0.2.0.
+    - This way, the agent can listen to any policy addition.
+    - Additionally, we can then assume that the UCP KG is valid.
+      The agent does not check whether the complete set of UCPs are valid or not.
+      It will only execute them.
+      Any conflicts in the UCP KG thus are the fault of the end-user, not of the agent.
+- For each target resource (`ids:target`), the agent MUST have `acl:Control` permission.
+- The [Solid Protocol](https://solidproject.org/TR/protocol) defines two options for Authorization (§11):
+  Web Access Control (WAC) and Access Control Policy (ACP).
+  The agent assumes that the Solid server hosting the target resources support WAC (and therefore Access Control List (ACL) resources).
+- The N3 rules contain built-ins that do work with the [EYE reasoner](https://github.com/eyereasoner/eye),
+  though no guarantees can be made with other N3 reasoners.
+- Only the *Duration-restricted Data Usage* from
+  [IDS Usage Control Policies](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl#ids-usage-control-policies)
+  has been implemented and tested as N3 Rule.
+    - Due to how [Koreografeye](https://github.com/eyereasoner/Koreografeye) extracts policies from the Reasoning Result,
+      the cardinality of target resources and assignees can only be 1.
+      We made a [feature request](https://github.com/eyereasoner/Koreografeye/issues/10) to solve this problem at its root.
+    - We added the triple `<permissionIdentifier> <odrl:assignee> <WebID> .` to the UCP to make sure we have a WebID to
+      which we can give access (though this was not described in
+      the [Pattern examples](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl#duration-usage-2)).
+- Giving Permission equals to giving read access (`acl:Read`).
+
+They are originally described [here](https://github.com/SolidLabResearch/Solid-Agent/tree/feat/cron-plugin/documentation/ucp#limitationsassumptions).
+
 ## Screencast
 
 You find a screencast of the plugin 
@@ -77,38 +109,6 @@ we can see the resource in Penny.
 the DemoUCPAgent executes the final part of the policy. 
 It takes away read access control for [woutslabbinck](https://woutslabbinck.solidcommunity.net/profile/card#me), 
 as defined in the Usage Control Policy.
-
-<!--
-Provide a list of important technical decisions and assumptions.
--->
-We made the following important technological decisions and assumptions:
-
-- The UCP KG is modelled as a Solid container, 
-  which furthermore requires that the Solid server supports 
-  the [Solid Notifications Protocol](https://solidproject.org/TR/notifications-protocol) v0.2.0.
-  - This way, the agent can listen to any policy addition.
-  - Additionally, we can then assume that the UCP KG is valid.
-    The agent does not check whether the complete set of UCPs are valid or not. 
-    It will only execute them.
-    Any conflicts in the UCP KG thus are the fault of the end-user, not of the agent.
-- For each target resource (`ids:target`), the agent MUST have `acl:Control` permission.
-- The [Solid Protocol](https://solidproject.org/TR/protocol) defines two options for Authorization (§11): 
-  Web Access Control (WAC) and Access Control Policy (ACP).
-  The agent assumes that the Solid server hosting the target resources support WAC (and therefore Access Control List (ACL) resources).
-- The N3 rules contain built-ins that do work with the [EYE reasoner](https://github.com/eyereasoner/eye), 
-  though no guarantees can be made with other N3 reasoners.
-- Only the *Duration-restricted Data Usage* from 
-  [IDS Usage Control Policies](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl#ids-usage-control-policies) 
-  has been implemented and tested as N3 Rule.
-  - Due to how [Koreografeye](https://github.com/eyereasoner/Koreografeye) extracts policies from the Reasoning Result, 
-    the cardinality of target resources and assignees can only be 1.
-    We made a [feature request](https://github.com/eyereasoner/Koreografeye/issues/10) to solve this problem at its root.
-  - We added the triple `<permissionIdentifier> <odrl:assignee> <WebID> .` to the UCP to make sure we have a WebID to 
-    which we can give access (though this was not described in 
-    the [Pattern examples](https://international-data-spaces-association.github.io/DataspaceConnector/Documentation/v6/UsageControl#duration-usage-2)).
-- Giving Permission equals to giving read access (`acl:Read`).
-
-They are originally described [here](https://github.com/SolidLabResearch/Solid-Agent/tree/feat/cron-plugin/documentation/ucp#limitationsassumptions).
 
 ## User flow
 
