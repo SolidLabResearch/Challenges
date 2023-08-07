@@ -48,6 +48,8 @@ It has the following features:
 - The agent periodically checks the sheet for changes and stores these changes in the resource.
 - The agent only works with public resources.
 
+You find a screencast of the agent [here](https://cloud.ilabt.imec.be/index.php/s/eFrEKF2YCkSx22j).
+
 <!--
 Provide a list of important technical decisions and assumptions.
 -->
@@ -55,7 +57,7 @@ We made the following important technological decisions and assumptions:
 - We did not include Solid authentication in this agent 
   because we have done authentication in other challenges, and 
   it is not crucial for this challenge.
-  [This](https://github.com/SolidLabResearch/google-sheet-sync/issues/13) is the corresponding issue.
+  [This](https://github.com/SolidLabResearch/google-sheet-sync/issues/13) is the corresponding issue to implement this.
 
 ## User flow
 
