@@ -37,7 +37,7 @@ Provide information about the approved solution:
 names of tools/libraries created, repos, and so on.
 -->
 
-We created an [agent](https://github.com/SolidLabResearch/google-sheet-sync) that 
+We created an [agent](https://github.com/SolidLabResearch/google-sheet-sync/releases/tag/v1.0.0) that 
 syncs data between a Google Sheet and a resource on a Solid pod.
 It has the following features:
 
