@@ -79,9 +79,9 @@ Complete the following sections:
 
 ### Steps
 
-1. Clone the [repository](https://github.com/SolidLabResearch/google-sheet-sync/) via 
+1. Clone the [repository](https://github.com/SolidLabResearch/google-sheet-sync/) (v1.0.0) via 
    ```shell
-   git clone https://github.com/SolidLabResearch/google-sheet-sync.git
+   git clone -b v1.0.0 https://github.com/SolidLabResearch/google-sheet-sync.git
    ```
 2. Install the dependencies via
    ```shell
