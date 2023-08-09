@@ -38,6 +38,11 @@ names of tools/libraries created, repos, and so on.
 -->
 
 <!--
+Add the link to the screencast if applicable.
+-->
+You find a screencast [here](??).
+
+<!--
 Provide a list of important technical decisions and assumptions.
 -->
 We made the following important technological decisions and assumptions:
