@@ -108,29 +108,29 @@ Complete the following sections:
     npm run prepare:pods
     ```
 12. Start the CSS instance via 
-   ```shell
-   npm run start:pods
-   ```
-   The agent will use the data in the resource <http://localhost:3000/example/software>.
-   The CSS instance is ready when the following message appears in the terminal:
-   ```
-   Listening to server at http://localhost:3000/
-   ```
+    ```shell
+    npm run start:pods
+    ```
+    The agent will use the data in the resource <http://localhost:3000/example/software>.
+    The CSS instance is ready when the following message appears in the terminal:
+    ```
+    Listening to server at http://localhost:3000/
+    ```
 13. Open another terminal.
 14. Copy the example config `config.query.example.yml` to `config.yml` via
-   ```shell
-   cp config.query.example.yml config.yml
-   ```
+    ```shell
+    cp config.query.example.yml config.yml
+    ```
 15. Set the `sheet.id` in `config.yml` to the ID of the Google Sheet.
     See [these instructions](https://github.com/SolidLabResearch/google-sheet-sync/tree/main#id-string).
 16. Copy the example YARRRML rules `rules.example.yml` to `rules.yml` via
-   ```shell
-   cp rules.example.yml rules.yml
-   ```
+    ```shell
+    cp rules.example.yml rules.yml
+    ```
 17. Start the agent via 
-   ```shell
-   npm start
-   ```
+    ```shell
+    npm start
+    ```
 18. The agent has synced the data that is in the resource <http://localhost:3000/example/software> to
     the Google Sheet once the following message appears in the terminal:
     ```
