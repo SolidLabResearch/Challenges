@@ -55,7 +55,35 @@ executes the requested policies defined with the N3 rules.
 Provide a list of important technical decisions and assumptions.
 -->
 We made the following important technological decisions and assumptions:
-- TODO
+
+- We expect the solution to be part of a larger existing framework. 
+Koreografeye doesn't implement some features on purpose such as 
+scheduling, rate limits, input and outputs, priorities, and so on. 
+For these features there are already existing tools that provide that. 
+On other words Koreografeye should be able to be just one added component to for example an Apache Nifi installation.
+
+- The Composition of Koreografeye parts such as input, orchestration and 
+policy execution are possible via the command line. 
+That way it's programming language-independent. 
+The JavaScript API is just an added feature and not the core of the design.
+
+- Developers can create a lot of plugins for policy enforcement and reasoner implementations. 
+Component.JS was used to facilitate this.
+
+- Koreografeye makes a strict separation between reasoning and policy execution. 
+  We don't advise to create any side effects in the reasoning part for two reasons:
+  - The rule book that the reasoner gets as input can be from external sources. 
+    We don't want arbitrary execution of code.
+  - During the reasoning phase there is little control over possible side effects,
+    such as when they are executed, in which order and how often.
+
+- Retrieving input from a (Solid) source is a [solved issue](https://solidproject.org/TR/protocol#reading-resources). 
+  The Koreografeye starts when an RDF resource is copied into a local storage location accessible for Koreografeye,
+- Retrieving the rule book from an external source is a [solved issue](https://solidproject.org/TR/protocol#reading-resources). 
+  Koreografeye expects a local storage location with zero or more rule book N3 or N3S (RDF Surfaces) files.
+- The order in which policy enforcements are executed is not relevant.
+- Rule books don't interfere with each other. 
+  Each rule book gets a new copy of the RDF input data
 
 ## User flow
 
@@ -128,4 +156,13 @@ List all lessons learned about your experience as a Solid developer:
 issues you encountered, tasks that could be automated or could be made easier and so on.
 -->
 
-TODO
+TODO: explain more
+
+- Solid application development is not only about Web programming.
+- Logic and reasoning can be external to your implementation.
+- It is possible to provide very limited remote execution near or inside a Solid pod when 
+  logic and handling side effects can be separated.
+- Although with [Bashlib](https://github.com/SolidLabResearch/Bashlib) 
+we have a command line tool to access a Solid pod and manage its content, 
+remote server-side Solid data management is in general not a solved issue. 
+Bashlib requires assumptions about specialised authentication methods for each Solid implementation.
