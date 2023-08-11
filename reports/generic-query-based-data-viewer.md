@@ -126,7 +126,7 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
-We will tackle these actions in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/).
+We will tackle these actions in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/) instead of the original of the Web app.
 
 - Rebuild the same functionality using [React-admin](https://marmelab.com/react-admin/).
   See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/1).
@@ -140,8 +140,10 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
+We will tackle the future work in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/) instead of the original of the Web app.
+
 - Support Solid authentication from browser window to web worker. 
-  See this [issue](https://github.com/SolidLabResearch/generic-data-viewer/issues/21).
+  See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/8).
 
 ## Lessons learned about developer experience
 <!--
