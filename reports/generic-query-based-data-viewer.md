@@ -126,8 +126,10 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
+We will tackle these actions in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/).
+
 - Rebuild the same functionality using [React-admin](https://marmelab.com/react-admin/).
-  See this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/).
+  See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/1).
 - How to deal with queries over multiple data sources where some data sources need the proxy and others do not.
   See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/4).
 
