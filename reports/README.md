@@ -43,6 +43,7 @@ None.
 
 ### Other
 
+- [Agent that syncs pods and Google Sheets](./agent-that-syncs-pods-and-google-sheets.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
