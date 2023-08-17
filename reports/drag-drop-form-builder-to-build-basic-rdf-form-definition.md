@@ -16,29 +16,31 @@ Report writer:
 The corresponding challenge is [#64](https://github.com/SolidLabResearch/Challenges/issues/64).
 
 ## Problem
-Create a drag & drop form builder that combines HTML form input fields, and 
-generates an RDF form definition of the created form. 
+
+Create a drag & drop form builder that combines HTML form input fields, and
+generates an RDF form definition of the created form.
 This RDF form definition should be stored in a preferred Solid location.
 
-The basic idea is to start with a Google Forms-like interface but for the generation of RDF data. 
+The basic idea is to start with a Google Forms-like interface but for the generation of RDF data.
 This application is one application that can be used in an environment in which:
 
 - Form builders can generate an RDF form definition.
 - Form renders that can render an RDF form for end users (e.g. as HTML or as a text menu).
 - Form viewers that can view the generated RDF in a human friendly way.
 
-These three components can work together, for example, so that 
+These three components can work together, for example, so that
 
-1. a form builder creates a Doodle form, 
-2. a form renderer makes a HTML version to input the data, and 
+1. a form builder creates a Doodle form,
+2. a form renderer makes a HTML version to input the data, and
 3. a form viewer generates a nice read-only view.
 
 See also the report ["Form renderer that to view RDF form and store filled-in data in pod"](./form-renderer-to-view-form-store-data.md).
 
 ## Approved solution
-We developed a [Web app](https://github.com/smessie/FormGenerator) 
-that allows users to create form definitions and share them with other users. 
-The generated form definition is stored in a user's pod as RDF and 
+
+We developed a [Web app](https://github.com/smessie/FormGenerator)
+that allows users to create form definitions and share them with other users.
+The generated form definition is stored in a user's pod as RDF and
 can then be used together with a form renderer to input data.
 
 Below you find a screenshot where a form is defined with the following fields:

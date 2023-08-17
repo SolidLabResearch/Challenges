@@ -30,7 +30,7 @@ These three components can work together, for example, so that
 2. a form renderer makes a HTML version to input the data, and
 3. a form viewer generates a nice read-only view.
 
-See also the reports ["Drag & drop form builder to build basic RDF form definition"](./drag-drop-form-builder-to-build-basic-rdf-form-definition.md) 
+See also the reports ["Drag & drop form builder to build basic RDF form definition"](./drag-drop-form-builder-to-build-basic-rdf-form-definition.md)
 and ["Form renderer that to view RDF form and store filled-in data in pod"](./form-renderer-to-view-form-store-data.md).
 
 ## Approved solutions
