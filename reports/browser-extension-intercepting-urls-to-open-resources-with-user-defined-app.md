@@ -33,8 +33,9 @@ You can configure what Web pages and resources are considered by the extension a
 Below you see a screenshot of the context menu that appears when right-clinking on a page
 when the plugin is installed.
 
-![A screenshot of the context menu that appears when right-clinking on a page
-when the plugin is installed.](img/acmeplugin.png)
+![A context menu that appears when right-clicking on a page.
+It has the option "Acme Open in".
+This option has three options: edit, open, and permissions.](img/acmeplugin.png)
 
 ## User flow
 
