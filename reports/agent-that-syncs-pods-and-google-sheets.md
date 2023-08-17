@@ -49,6 +49,9 @@ It has the following features:
 - The agent only works with public resources.
 
 You find a screencast of the agent [here](https://cloud.ilabt.imec.be/index.php/s/eFrEKF2YCkSx22j).
+You find the details on how to configure the agent for your use case 
+[here](https://github.com/SolidLabResearch/google-sheet-sync/tree/fac52cc087d999e8b3de465c4871f5e2ba06ab62#configuration).
+This includes how to use your own sheets, pods and queries.
 
 <!--
 Provide a list of important technical decisions and assumptions.
@@ -58,6 +61,14 @@ We made the following important technological decisions and assumptions:
   because we have done authentication in other challenges, and 
   it is not crucial for this challenge.
   [This](https://github.com/SolidLabResearch/google-sheet-sync/issues/13) is the corresponding issue to implement this.
+- TODO: how is determined what data is changed?
+- TODO: rely on RML Web API
+- TODO: Why everything from scratch?
+- TODO: authentication server
+
+TODO: add diagram
+https://github.com/SolidLabResearch/google-sheet-sync/blob/main/sequence-diagram.md
+
 
 ## User flow
 
@@ -66,16 +77,23 @@ Describe a concrete user flow with the approved solution.
 Complete the following sections:
 -->
 
+This user flow describes how to set up a demo of the agent.
+
 ### Actors/actresses
 
-- User of the application.
+- User of the agent, called "agent user" hereafter. 
+- User of the Google Sheet, called "sheet user" hereafter.
+- User of the pod, called "pod user" hereafter.
+
+In the steps below we don't make a difference between the different users
+as these steps are only meant to demo the solution of the challenge.
 
 ### Preconditions
 
-- The user has Node.js installed.
-- The user has set a Client ID and Secret for the Google API.
+- The agent and pod user have Node.js installed.
+- The agent user has set a Client ID and Secret for the Google API.
   See [these instructions](https://github.com/SolidLabResearch/google-sheet-sync#google-sheet-api).
-- A Google Sheet that the agent can sync to.
+- A Google Sheet from the sheet user that the agent can sync to.
 
 ### Steps
 
