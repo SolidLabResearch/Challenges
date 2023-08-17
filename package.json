@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "lint:fix": "markdownlint-cli2-fix"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.8.1"
+  }
+}

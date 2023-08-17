@@ -18,13 +18,13 @@ The corresponding challenge is [#75](https://github.com/SolidLabResearch/Challen
 ## Problem
 
 It would be great to have a public [Community Solid Server](https://github.com/CommunitySolidServer/CommunitySolidServer)
-(CSS) instance that can be used for testing. 
+(CSS) instance that can be used for testing.
 That way developers can quickly make an account to test or demo an application.
 
 ## Approved solution
 
-We deployed a CSS instance at https://pod.playground.solidlab.be/.
-Users can make accounts and 
+We deployed a CSS instance at <https://pod.playground.solidlab.be/>.
+Users can make accounts and
 have complete control over their data.
 The instance is reset every 24 hours,
 specifically at 5:00 local time in Belgium.
