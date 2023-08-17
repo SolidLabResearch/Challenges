@@ -83,11 +83,11 @@ We do this by re-evaluating the queries every time a resource has changed.
 The user sees the results of the query in the terminal where the query was started.
 For `npm run complex-query` that is
 
-```shell
+```text
 Result aggregated (0.005 s): 
   bindings: 
     fr: http://localhost:3000/pods/00000000000000000296/profile/card#me
- dist: 1
+    dist: 1
   bindings: 
     fr: http://localhost:3000/pods/00000000000000000318/profile/card#me
     dist: 1
@@ -95,11 +95,11 @@ Result aggregated (0.005 s):
 Result client (46.363 s): 
   bindings: 
     fr: http://localhost:3000/pods/00000000000000000296/profile/card#me
- dist: 1
+    dist: 1
   bindings: 
- fr: http://localhost:3000/pods/00000000000000000318/profile/card#me
- dist: 1
- ...
+    fr: http://localhost:3000/pods/00000000000000000318/profile/card#me
+    dist: 1
+    ...
 ```
 
 Using the aggregator it takes only 0.005s to get the results, while
