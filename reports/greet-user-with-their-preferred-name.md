@@ -18,7 +18,7 @@ The corresponding challenge is [#4](https://github.com/SolidLabResearch/Challeng
 ## Problem
 
 Users like to be addressed by their preferred name within apps.
-This is a name that they are known as, or use for themselves. 
+This is a name that they are known as, or use for themselves.
 In some cultures, this is the first name.
 It could also be a user-chosen name or nickname.
 Other cultures do not have the concept of a first name, so another strategy is needed.
@@ -26,7 +26,7 @@ Other cultures do not have the concept of a first name, so another strategy is n
 ## Approved solution
 
 We developed a [Web app](https://github.com/SolidLabResearch/SolidLoginGreeter) that
-shows users their preferred name based on 
+shows users their preferred name based on
 a [set of N3 rules](https://github.com/SolidLabResearch/SolidLoginGreeter/blob/main/public/PreferencePredicates.n3).
 
 ## User flow
@@ -55,4 +55,5 @@ a [set of N3 rules](https://github.com/SolidLabResearch/SolidLoginGreeter/blob/m
 - Add a function to get a person's preferred name to SolidLabLib.js ([issue](https://github.com/SolidLabResearch/SolidLabLib.js/issues/4)).
 
 ## Future work
+
 None.

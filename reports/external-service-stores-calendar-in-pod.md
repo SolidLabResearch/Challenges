@@ -19,10 +19,10 @@ which contributes to scenario [#2](https://github.com/SolidLabResearch/Challenge
 
 ## Problem
 
-At the moment it's possible to request a calendar from a CSS instance through the use of 
-a [store](https://github.com/KNowledgeOnWebScale/solid-calendar-store/). 
-But this solution is coupled to the implementation of CSS. 
-A better solution would be to have an external service that reads the original calendar and 
+At the moment it's possible to request a calendar from a CSS instance through the use of
+a [store](https://github.com/KNowledgeOnWebScale/solid-calendar-store/).
+But this solution is coupled to the implementation of CSS.
+A better solution would be to have an external service that reads the original calendar and
 stores it in a pod using only the methods specified by Solid.
 
 ## Approved solution
@@ -32,11 +32,11 @@ names of tools/libraries created, repos, and so on.
 -->
 
 Oxford HCC developed an [orchestrator](https://github.com/renyuneyun/calendar-orchestrator) that allows users to
-configure an automatic process that periodically retrieves their calendars, 
+configure an automatic process that periodically retrieves their calendars,
 converts them to RDF, and
 stores them on their pods.
 
-The repository contains both a [frontend](https://github.com/renyuneyun/calendar-orchestrator/tree/main/app) and 
+The repository contains both a [frontend](https://github.com/renyuneyun/calendar-orchestrator/tree/main/app) and
 a [backend](https://github.com/renyuneyun/calendar-orchestrator/tree/main/core), but
 only the backend is relevant for [challenge #68](https://github.com/SolidLabResearch/Challenges/issues/68) and
 this report.
@@ -62,35 +62,44 @@ We assume for the steps below that the WebID is `https://pod.playground.solidlab
 - The user has a pod where the calendar and the configuration of the orchestrator can be stored.
 We assume for the steps below that the pod is located at `https://pod.playground.solidlab.be/ash/`,
 with `https://pod.playground.solidlab.be/` as identify provider.
-- The WebID has a `http://www.w3.org/ns/pim/space#storage` triple. 
+- The WebID has a `http://www.w3.org/ns/pim/space#storage` triple.
 See the [Solid WebID Profile](https://solid.github.io/webid-profile/#storage).
 For the WebID `https://pod.playground.solidlab.be/ash/profile/card#me` we added the triple
+
    ```turtle
     <#me> <http://www.w3.org/ns/pim/space#storage> <https://pod.playground.solidlab.be/ash/>.
    ```
+
 - The user has [HTTPie](https://httpie.io/) installed on their local machine.
 
 ### Steps
 
-1. Clone the [orchestrator](https://github.com/renyuneyun/calendar-orchestrator) 
+1. Clone the [orchestrator](https://github.com/renyuneyun/calendar-orchestrator)
 via `git clone https://github.com/renyuneyun/calendar-orchestrator.git`.
 2. Navigate to the `core` folder via `cd calendar-orchestrator/core`.
 3. Install the dependencies via `npm i`.
 4. Run the orchestrator via `npm run build && npm run start`.
 5. Open a new terminal.
 6. Register the user via
-   ```shell 
+
+   ```shell
    http POST localhost:3000/user webid=https://pod.playground.solidlab.be/ash/profile/card#me issuer=https://pod.playground.solidlab.be/ email=ash@example.com password=ash
    ```
+
 7. Get the user's information via
+
    ```shell
    http GET localhost:3000/user webid=https://pod.playground.solidlab.be/ash/profile/card#me
    ```
+
 8. Set user's calendar URL via
+
    ```shell
    http POST localhost:3000/user webid=https://pod.playground.solidlab.be/ash/profile/card#me issuer=https://pod.playground.solidlab.be/ cal_url=http://localhost:8080/parties.ics
    ```
+
 9. Update user's calendar data
+
    ```shell
    http POST localhost:3000/user webid=https://pod.playground.solidlab.be/ash/profile/card#me issuer=https://pod.playground.solidlab.be/
    ```
@@ -99,6 +108,7 @@ via `git clone https://github.com/renyuneyun/calendar-orchestrator.git`.
 
 Find the availability calendar at `https://pod.playground.solidlab.be/ash/availability`.
 This is a snippet of the calendar:
+
    ```turtle
    @prefix schema: <http://schema.org/> .
 
