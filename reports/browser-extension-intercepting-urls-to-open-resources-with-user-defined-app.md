@@ -17,8 +17,8 @@ The corresponding challenge is [#45](https://github.com/SolidLabResearch/Challen
 
 ## Problem
 
-In a decentralized Solid world many applications will provide functionality to do one or more specialised actions, 
-such as browsing files, playing games, creating a Doodle, participating in a Quiz. 
+In a decentralized Solid world many applications will provide functionality to do one or more specialised actions,
+such as browsing files, playing games, creating a Doodle, participating in a Quiz.
 In this environment users have a preference for apps they want to use to do some tasks:
 
 - When the user wants to browse a pod, she wants to use App X.
@@ -27,17 +27,19 @@ In this environment users have a preference for apps they want to use to do some
 
 ## Approved solution
 
-We developed a [browser extension](https://github.com/phochste/AcmePlugin) that 
+We developed a [browser extension](https://github.com/phochste/AcmePlugin) that
 allows users to open resources with existing Solid apps via the context menu.
-You can configure what Web pages and resources are considered by the extension and what specific apps should be used. 
+You can configure what Web pages and resources are considered by the extension and what specific apps should be used.
 Below you see a screenshot of the context menu that appears when right-clinking on a page
 when the plugin is installed.
 
-![](img/acmeplugin.png)
+![A context menu that appears when right-clicking on a page.
+It has the option "Acme Open in".
+This option has three options: edit, open, and permissions.](img/acmeplugin.png)
 
 ## User flow
 
-### Actors/actresses 
+### Actors/actresses
 
 - Browser extension
 - User of the extension
@@ -58,7 +60,7 @@ when the plugin is installed.
 
 ## Follow-up actions
 
-None. 
+None.
 
 ## Future work
 

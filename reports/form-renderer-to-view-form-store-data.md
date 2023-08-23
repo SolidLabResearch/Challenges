@@ -18,9 +18,9 @@ The corresponding challenge is [#65](https://github.com/SolidLabResearch/Challen
 ## Problem
 
 Create a form renderer that can render an RDF form definition.
-In this application users can in a declarative way point to 
+In this application users can in a declarative way point to
 
-- the RDF form definition, 
+- the RDF form definition,
 - the RDF data, and
 - the resource on a Solid pod where the data should be stored.
 
@@ -40,7 +40,7 @@ See also the report ["Drag & drop form builder to build basic RDF form definitio
 
 ## Approved solution
 
-We developed a [Web app](https://github.com/phochste/FormViewer) 
+We developed a [Web app](https://github.com/phochste/FormViewer)
 that allows users to
 
 - view an RDF form, and
@@ -80,7 +80,7 @@ None.
 
 ### Steps
 
-1. The user opens the Web app at https://formviewer.patrickhochstenbach.net/?rft.form=https%3A%2F%2Fformviewer.patrickhochstenbach.net%2Fbook-review.form.ttl
+1. The user opens the Web app at <https://formviewer.patrickhochstenbach.net/?rft.form=https%3A%2F%2Fformviewer.patrickhochstenbach.net%2Fbook-review.form.ttl>
 2. The user fills in the details of the fields. See the example form in the "Approved solution" section.
 3. The user click on the button "Save".
 4. The app shows a notification confirming that the data is saved at the resource mentioned in the details.

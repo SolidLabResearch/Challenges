@@ -5,6 +5,7 @@ You find the template [here](template.md).
 
 ## All reports
 
+- [Agent that syncs pods and Google Sheets](./agent-that-syncs-pods-and-google-sheets.md)
 - [Aggregators to improve social media data access across many pods](./aggregators-to-improve-social-media-data-access-across-many-pods.md)
 - [App that lists apps and tooling](./app-that-lists-apps-and-tooling.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
@@ -43,6 +44,7 @@ None.
 
 ### Other
 
+- [Agent that syncs pods and Google Sheets](./agent-that-syncs-pods-and-google-sheets.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Generic query-based data viewer](./generic-query-based-data-viewer.md)
