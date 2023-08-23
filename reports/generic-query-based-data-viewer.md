@@ -9,6 +9,8 @@ Solution creator:
   - https://pieterheyvaert.com/#me
 Report writer:
   - https://pieterheyvaert.com/#me
+Report reviewer:
+  - https://ben.de-meester.org/#me
 -->
 
 # Generic query-based data viewer
@@ -45,6 +47,9 @@ has the following features:
 - Users can refresh the results of a query via a button.
 
 You find a screencast [here](https://cloud.ilabt.imec.be/index.php/s/AJomCGpLjYbxmCX).
+You find the details on how to configure the app for your use case
+[here](https://github.com/SolidLabResearch/generic-data-viewer/tree/ccccc3aa882bb7c1c76fdafdf5e937ffc491d8af#configuration-file).
+This includes how to use your own pods and queries.
 
 <!--
 Provide a list of important technical decisions and assumptions.
@@ -61,6 +66,8 @@ We made the following important technological decisions and assumptions:
 Describe a concrete user flow with the approved solution.
 Complete the following sections:
 -->
+
+This user flow describes how to set up and show a demo of the app.
 
 ### Actors/actresses
 
