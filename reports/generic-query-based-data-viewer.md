@@ -21,9 +21,9 @@ You can reuse the pitch of the challenge, but check if you need to make changes.
 For example, it might happen that the approved solution does more than what the original pitch requested.
 -->
 
-When developing apps and adding/removing/editing data in pods, 
-it is useful to be able to easily view what data is actually in your pods. 
-At the moment, there is no generic app that easily allows users to 
+When developing apps and adding/removing/editing data in pods,
+it is useful to be able to easily view what data is actually in your pods.
+At the moment, there is no generic app that easily allows users to
 execute queries over multiple pods and inspect the corresponding results.
 
 ## Approved solution
@@ -32,13 +32,13 @@ Provide information about the approved solution:
 names of tools/libraries created, repos, and so on.
 -->
 
-We developed a [Web app](https://github.com/SolidLabResearch/generic-data-viewer/releases/tag/v1.0.0) that 
+We developed a [Web app](https://github.com/SolidLabResearch/generic-data-viewer/releases/tag/v1.0.0) that
 has the following features:
 
 - Before using the app, a developer defines via a config file the SPARQL queries that should be used by the app.
 - Users can log in with their WebID or identity provider.
 - Users select the query based on their name from the sidebar.
-- The app shows the results of the query in a table. 
+- The app shows the results of the query in a table.
 - Specific query variables influence how the app shows the results:
   - If a variable is a link to an image and the variable ends with `_img` then the app shows the actual images.
   - If a variable is a float and the variable ends with `_float`, the app shows the values as floats.
@@ -51,8 +51,8 @@ Provide a list of important technical decisions and assumptions.
 -->
 We made the following important technological decisions and assumptions:
 
-- The app has the [option](https://github.com/SolidLabResearch/generic-data-viewer/tree/ccccc3aa882bb7c1c76fdafdf5e937ffc491d8af#configuration-file) 
-  to redirect requests from Comunica, which executes the queries, via a proxy. 
+- The app has the [option](https://github.com/SolidLabResearch/generic-data-viewer/tree/ccccc3aa882bb7c1c76fdafdf5e937ffc491d8af#configuration-file)
+  to redirect requests from Comunica, which executes the queries, via a proxy.
   The app does this to deal with data sources that don't set the CORS headers correctly.
 
 ## User flow
@@ -73,39 +73,55 @@ Complete the following sections:
 ### Steps
 
 1. Clone the repository (v1.0.0) via
+
    ```shell
    git clone -b v1.0.0 https://github.com/SolidLabResearch/generic-data-viewer.git
    ```
+
 2. Install the dependencies via
+
    ```shell
    npm i 
    ```
+
 3. Prepare and start the Community Solid Server with the pods via
+
    ```shell
    npm run prepare:pods && npm run start:pods
    ```
+
    The server is ready when the following message appears:
-   ```
+
+   ```text
    Listening to server at http://localhost:3000/
    ```
+
 4. Open another terminal.
 5. Start the app via
+
    ```shell
    npm start
    ```
+
    The app is ready when the following message appears:
-   ```
+
+   ```text
    Running CORS Anywhere on 0.0.0.0:8000
    ```
+
 6. Open another terminal.
 7. Start the proxy via
+
    ```shell
    npm run start:proxy
    ```
+
    The app is ready when the following message appears:
-   ```
+
+   ```text
    Running CORS Anywhere on 0.0.0.0:8000
    ```
+
 8. Navigate to <http://localhost:3000>.
 9. Click on "Test query" in the sidebar.
 10. The results appear in the table on the right.
@@ -126,7 +142,9 @@ List all concrete follow-up actions that someone has to do.
 For example, adding helper code from the solution to Comunica.
 -->
 
-We will tackle these actions in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/) instead of the original of the Web app.
+We will tackle these actions in this separate
+[repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/)
+instead of the original of the Web app.
 
 - Rebuild the same functionality using [React-admin](https://marmelab.com/react-admin/).
   See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/1).
@@ -140,9 +158,11 @@ These ideas don't have to be concrete.
 You can create a new challenge/scenario for each idea.
 -->
 
-We will tackle the future work in this separate [repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/) instead of the original of the Web app.
+We will tackle the future work in this separate
+[repository](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/)
+instead of the original of the Web app.
 
-- Support Solid authentication from browser window to web worker. 
+- Support Solid authentication from browser window to web worker.
   See this [issue](https://github.com/SolidLabResearch/generic-data-viewer-react-admin/issues/8).
 
 ## Lessons learned about developer experience
