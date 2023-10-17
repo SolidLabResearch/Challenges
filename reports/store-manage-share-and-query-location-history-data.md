@@ -16,25 +16,26 @@ Report writer:
 The corresponding challenge is [#10](https://github.com/SolidLabResearch/Challenges/issues/10).
 
 ## Problem
-Your location and its history are a valuable source of information for applications to offer you 
+
+Your location and its history are a valuable source of information for applications to offer you
 a more contextual user experience.
 
 You could for example do the following:
 
-* Share your current location (temporarily) with a friend without sending it to a different server.
-* Annotate your location history with the mode of transport you were using at that time. 
-This allows to analyse after a certain period your mobility behavior and 
-whether using a different mode would’ve saved you time and money 
-(like https://savewithcarsharing.be/, but then without manual data entry and with client-side query evaluation).
-* Use your location history to check where a certain picture in your pod was taken.
-* Look-up when you were at a certain location in the past.
+- Share your current location (temporarily) with a friend without sending it to a different server.
+- Annotate your location history with the mode of transport you were using at that time.
+This allows to analyse after a certain period your mobility behavior and
+whether using a different mode would’ve saved you time and money
+(like <https://savewithcarsharing.be/>, but then without manual data entry and with client-side query evaluation).
+- Use your location history to check where a certain picture in your pod was taken.
+- Look-up when you were at a certain location in the past.
 
 ## Approved solution
 
 We developed a [Web app](https://github.com/SolidLabResearch/LocationHistory) that
 allow users to capture their location from browser after logging in with their WebID.
-The app stores the user's raw location data as RDF which is validated against a SHACL shape. 
-The user can also request location from other users using their WebID. 
+The app stores the user's raw location data as RDF which is validated against a SHACL shape.
+The user can also request location from other users using their WebID.
 These requests can be approved or revoked.
 
 You find the live version [here](https://solidlabresearch.github.io/LocationHistory/) and
@@ -99,7 +100,9 @@ The screencast doesn't contain audio.
 None.
 
 ## Follow-up actions
+
 None.
 
 ## Future work
+
 - [An extension that abstracts away the complexities of permissions for resource sharing between users and apps](https://github.com/SolidLabResearch/Challenges/issues/78)

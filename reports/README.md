@@ -5,6 +5,7 @@ You find the template [here](template.md).
 
 ## All reports
 
+- [Agent that syncs pods and Google Sheets](./agent-that-syncs-pods-and-google-sheets.md)
 - [Aggregators to improve social media data access across many pods](./aggregators-to-improve-social-media-data-access-across-many-pods.md)
 - [App that lists apps and tooling](./app-that-lists-apps-and-tooling.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
@@ -15,6 +16,7 @@ You find the template [here](template.md).
 - [Edit pod files in Visual Studio Code](./edit-pod-files-in-vs-code.md)
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
 - [Form renderer that to view RDF form and store filled-in data in pod](./form-renderer-to-view-form-store-data.md)
+- [Generic query-based data viewer](./generic-query-based-data-viewer.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
 - [Orchestrator to forward LDN notifications to LDN inbox based on N3 rules](./orchestrator-to-forward-ldn-notifications-to-inbox-based-on-n3-rules.md)
@@ -43,7 +45,9 @@ None.
 
 ### Other
 
+- [Agent that syncs pods and Google Sheets](./agent-that-syncs-pods-and-google-sheets.md)
 - [Automatically test performance of each CSS commit](./automatically-test-performance-of-each-css-commit.md)
 - [External service stores calendar in pod](./external-service-stores-calendar-in-pod.md)
+- [Generic query-based data viewer](./generic-query-based-data-viewer.md)
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
 - [Temporal Usage Control Policy execution for Solid Resources](./temporal-usage-control-policy-execution-for-solid-resources.md)

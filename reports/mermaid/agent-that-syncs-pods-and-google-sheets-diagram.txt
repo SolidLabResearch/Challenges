@@ -1,0 +1,26 @@
+sequenceDiagram
+    actor agent_user as Agent user
+    participant app as Sync agent
+    participant resource as Resource
+    participant sheet as Google Sheet
+    actor sheet_user as Sheet user
+
+    agent_user ->> app: 1. Configure agent via config file
+    agent_user ->> app: 2. Start agent
+    app ->> resource: 3. Query data
+    resource -->> app: 4. Return data
+    app ->> app: 5. Convert RDF data to 2D-array
+    app ->> sheet: 6. Fill sheet with data from array
+
+    sheet_user ->> sheet: 7. Edit one or more fields
+
+    loop periodically
+        app ->> sheet: 8. Query data
+        sheet -->> app: 9. Return data
+        app ->> app: 10. Check for changes on data
+        alt changes detected
+            app ->> app: 11. Convert changes to RDF data
+            app ->> resource: 12. Write changes
+        end
+    end
+
