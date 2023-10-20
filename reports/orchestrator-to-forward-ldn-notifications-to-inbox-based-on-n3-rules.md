@@ -178,7 +178,7 @@ The good part of having logic external to your application is that programmers o
 their own problem domain.
 For example, I want that LDN notifications that are send to my pod are forwarded to my email address.
 This logic shouldn't be implemented by every Solid application that sends notifications to my pod.
-It's of no concern to these applications what kind of extra business rules are required 
+It's of no concern to these applications what kind of extra business rules are required
 when a notification arrives in the LDN inbox.
 
 The bad part is like everything else in a decentralized world:
@@ -204,9 +204,9 @@ Although with [Bashlib](https://github.com/SolidLabResearch/Bashlib)
 we have a command line tool to access a Solid pod and manage its content,
 remote server-side Solid data management is in general not a solved issue.
 Bashlib requires assumptions about specialised authentication methods for each Solid implementation.
-We currently depend on an authentication mechanism with 
-[tokens](https://communitysolidserver.github.io/CommunitySolidServer/7.x/usage/client-credentials/) 
-that only works for 
+We currently depend on an authentication mechanism with
+[tokens](https://communitysolidserver.github.io/CommunitySolidServer/7.x/usage/client-credentials/)
+that only works for
 the [Community Solid Server](https://github.com/CommunitySolidServer/CommunitySolidServer).
-These tokens allow doing authenticated requests without the need for the user to log in every certain amount of time. 
+These tokens allow doing authenticated requests without the need for the user to log in every certain amount of time.
 There are other pod servers that also provide such tokens, but they have their own mechanism to do this.
