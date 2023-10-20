@@ -186,7 +186,7 @@ The bad part is like everything else in a decentralized world:
 - Who keeps an overview of what process flows are running on your data?
 - Who keeps an overview of resource dependencies?
 
-For example, can I delete/update a resource when I don't know if another service/p still needs it?
+For example, can I delete/update a resource when I don't know if another process still needs it?
 
 ### Possible to provide very limited remote execution near or inside pod
 
