@@ -19,6 +19,7 @@ You find the template [here](template.md).
 - [Generic query-based data viewer](./generic-query-based-data-viewer.md)
 - [Greet user with preferred name](./greet-user-with-their-preferred-name.md)
 - [Menubar app to check who is on vacation](./menubar-app-to-check-who-is-on-vacation.md)
+- [Orchestrator to forward LDN notifications to LDN inbox based on N3 rules](./orchestrator-to-forward-ldn-notifications-to-inbox-based-on-n3-rules.md)
 - [Public Community Solid Server instance for testing](./public-css-instance-for-testing.md)
 - [Read and write data in Web app relying on Solid authentication browser extension](./read-and-write-data-in-web-app-relying-on-solid-authentication-browser-extension.md)
 - [Store, manage, share and query location (history) data](./store-manage-share-and-query-location-history-data.md)
