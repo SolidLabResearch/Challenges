@@ -57,7 +57,7 @@ None.
 ### Steps
 
 1. The user opens the Web app.
-2. The user searched for "editor".
+2. The user searches for "editor".
 
 ### Postconditions
 

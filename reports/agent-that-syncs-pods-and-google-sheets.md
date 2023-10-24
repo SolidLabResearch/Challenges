@@ -9,6 +9,8 @@ Solution creator:
   - https://pieterheyvaert.com/#me
 Report writer:
   - https://pieterheyvaert.com/#me
+Report reviewer:
+  - https://ben.de-meester.org/#me
 -->
 
 # Agent that syncs pods and Google Sheets
@@ -115,7 +117,7 @@ Describe a concrete user flow with the approved solution.
 Complete the following sections:
 -->
 
-This user flow describes how to set up a demo of the agent.
+This user flow describes how to set up and show a demo of the agent.
 
 ### Actors/actresses
 
