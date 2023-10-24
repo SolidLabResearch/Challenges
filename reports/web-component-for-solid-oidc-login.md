@@ -69,13 +69,12 @@ You can change the styling yourself using CSS.
 
 [PodOS](https://github.com/pod-os/PodOS) also offers a component with similar functionality, but
 it requires the component to be part of a `<pos-app>` component.
-`<pos-app>` holds the session and 
-can give other components access to an instance of PodOS, 
-which can do authenticated fetches using the [rdflib.js](https://github.com/linkeddata/rdflib.js/) 
+`<pos-app>` holds the session and
+can give other components access to an instance of PodOS,
+which can do authenticated fetches using the [rdflib.js](https://github.com/linkeddata/rdflib.js/)
 store/fetcher that is part of it.
 Thus, it doesn't full the acceptance criteria of the challenge,
-but it does show an alternative approach
-TODO: Mention alternative PodOS
+but it does show an interesting, alternative approach.
 
 ## User flow
 
